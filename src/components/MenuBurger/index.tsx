@@ -6,6 +6,9 @@ import SocialMedia from "../Footer/SocialMedia";
 export default function MenuBurger(): JSX.Element {
   return (
     <Menu width={200}>
+      <a className="menu-item" href="/contact">
+        Contato
+      </a>
       <a className="menu-item" href="/">
         Quem sou eu?
       </a>
@@ -16,10 +19,6 @@ export default function MenuBurger(): JSX.Element {
 
       <a className="menu-item" href="/services">
         Projetos
-      </a>
-
-      <a className="menu-item" href="/contact">
-        Contato
       </a>
       <section>
         <SocialMedia />

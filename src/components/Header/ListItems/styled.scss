@@ -13,6 +13,13 @@ ol {
 
     &:hover {
       color:#c7ccec;
+      transition: all 0.2s ease-in;
+    }
+    > figure {
+        transition: transform .4s;
+      &:hover {
+        transform: rotate(45deg)
+      }
     }
   }
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import "./styled.scss";
 import Card from "../../components/Card";
-import { GrHtml5 } from "react-icons/gr";
 import { DiCss3Full, DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 import { FaSass, FaNode, FaReact, FaGithub, FaDocker } from "react-icons/fa";
+import { ImHtmlFive } from "react-icons/im";
 import paperPlane from "../../assets/images/icons/plane.png";
 import atom from "../../assets/images/icons/atom.png";
 
@@ -26,7 +26,7 @@ export default function Skills(): JSX.Element {
             "Gosto bastante do sintaxe e ja trabalhei bastante com ela."
           }
         >
-          <GrHtml5 size={25} />
+          <ImHtmlFive size={25} color={"#fff"} />
         </Card>
         <Card
           title="CSS3"

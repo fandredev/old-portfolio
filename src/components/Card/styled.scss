@@ -31,10 +31,11 @@ aside {
     text-align: center;
     color: #fff;
     border-radius: 20px;
-    box-shadow: $box-shadow;
+    transition: height 0.5s ease;
+
 
      &:hover {
-      transform: scale(1.1);
+      height: 40vh;
       box-shadow: $box-shadow;
     }
     > figure {

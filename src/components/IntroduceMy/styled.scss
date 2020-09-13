@@ -1,18 +1,46 @@
 @charset 'utf-8';
 @import '../../globals/Variables.scss';
+@import '../../globals/Mixins.scss';
 
 section {
   text-align: center;
   font-family: $default-font;
-  > figure {
-    > img {
-      width: 100%;
-       @media (min-width: $tablet-sm) and (max-width: 1300px) {
-         width: 50%;
-       }
+  > div {
+    @media (min-width: $computer) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    figure {
+      > img {
+        width: 100%;
+
+        @media (min-width: $tablet-sm) and (max-width: 999px) {
+          width: 50%;
+        }
+        @media (min-width: $computer) {
+          width: 100%;
+        }
+      }
+      @media (min-width: $computer) {
+        order: 3;
+      }
+    }
+    > h2:first-child {
+      @include titlePadronization;
+    }
+    > section[id="contact"] {
+      @media (min-width:$tablet-sm) and (max-width:$computer) {
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+      }
+      @media (min-width: $computer) {
+        order: 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   }
-  > h2 {
+  > h2:last-child {
     @media (min-width: $tablet-md) and (max-width: $computer){
       font-size: 3rem;
     }
@@ -39,6 +67,7 @@ section {
           width: 30%;
           border-radius: 50%;
           border: 1px solid transparent;
+          transition: height 0.5s ease-in-out;
           @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
             align-items: center;
             display: flex;
@@ -51,7 +80,6 @@ section {
              width: 100%;
           }
           &:hover {
-            transform: scale(1.1);
             box-shadow: $box-shadow;
           }
         }
