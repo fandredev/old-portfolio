@@ -1,0 +1,18 @@
+// import { createContext, useState } from 'react'
+
+// const PortContext = createContext()
+
+
+// export default function PortProvider({children}) {
+
+//   const [test, setTest] = useState(false)
+
+//   const state={test, setTest}
+
+//   Object.freeze(state)
+//   return (
+//     <PortContext.Provider value={state}>
+//       {children}
+//     </PortContext.Provider>
+//   )
+// }

@@ -1,0 +1,16 @@
+@charset 'utf-8';
+@import '../../globals/Variables.scss';
+@import '../../globals/Mixins.scss';
+
+section {
+  h2 {
+   @include titlePadronization;
+
+   > img {
+     width: 10vw;
+   }
+    // &:hover {
+    //   transition: all .0.5s ease-in-out;
+    // }
+  }
+}

@@ -1,0 +1,25 @@
+@charset 'utf-8';
+@import '../../globals/Variables.scss';
+footer {
+  font-family: $thirdary-font;
+  text-align: center;
+  background: $secondary;
+  height: 17vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  color: #fff;
+  ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    > li {
+      margin: 0 2rem;
+    }
+  }
+  > aside {
+    line-height: 2.2rem;
+  }
+}

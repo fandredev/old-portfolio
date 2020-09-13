@@ -1,0 +1,32 @@
+@charset 'utf-8';
+@import '../../globals/Variables.scss';
+
+section {
+  text-align: center;
+  font-family: $default-font;
+  > figure {
+    > img {
+      width: 100%;
+    }
+  }
+  > section {
+      > i {
+        > img {
+          width: 30%;
+          border-radius: 50%;
+          border: 1px solid transparent;
+
+          &:hover {
+            transform: scale(1.1);
+            box-shadow: $box-shadow;
+          }
+        }
+      }
+    > article {
+      padding: 0 2rem;
+      font-weight: 600;
+      text-align: justify;
+      line-height: 3rem;
+    }
+  }
+}

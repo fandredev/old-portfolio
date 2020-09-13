@@ -1,0 +1,18 @@
+@import '../../globals/Variables.scss';
+
+header {
+  height: 14vh;
+  background: $primary;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 10px 30px #39383d34;
+    z-index: 1;
+    transition: background 1s ease;
+  & i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    > li {
+      margin: 0 1rem;
+    }
+  }

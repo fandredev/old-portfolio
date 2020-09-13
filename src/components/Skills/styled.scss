@@ -1,0 +1,13 @@
+@charset 'utf-8';
+@import '../../globals/Variables.scss';
+@import '../../globals/Mixins.scss';
+
+h2 {
+  @include titlePadronization;
+     line-height: 10rem;
+   text-align: center;
+
+   > img {
+     width: 10vw;
+   }
+}

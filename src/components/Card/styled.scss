@@ -1,0 +1,42 @@
+@charset 'utf-8';
+@import '../../globals/Variables.scss';
+
+
+aside {
+  padding: 0 3rem;
+  div[id="card"] {
+    background: $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 50vh;
+    width: 100%;
+    padding: 1rem 2rem;
+    margin-bottom:2rem;
+    font-family: $secondary-font;
+    text-align: justify;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: $box-shadow;
+
+     &:hover {
+      transform: scale(1.1);
+      box-shadow: $box-shadow;
+    }
+    > figure {
+      margin-top: 2rem;
+      > img {
+        width: 100%;
+      }
+    }
+    > h3 {
+      color: #212426;
+      line-height: 3rem;
+    }
+    > span {
+      color: #fff;
+      line-height: 2.6rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@charset 'utf-8';
+@import './Variables.scss';
+
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem
+}
+ul, li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+abbr {
+  text-decoration: none;
+}

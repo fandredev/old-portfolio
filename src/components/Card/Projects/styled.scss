@@ -1,0 +1,13 @@
+@charset 'utf-8';
+@import '../../../globals/Variables.scss';
+
+div[id="projects"] {
+  margin: 5rem 0;
+     &:hover {
+      box-shadow: $box-shadow;
+    }
+  > img {
+    width: 100%;
+    height: 35vh;
+  }
+}
