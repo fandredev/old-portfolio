@@ -76,12 +76,3 @@ body {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
-
-
-
-/* my styles*/
-
-figure[id="rocket"] {
-  display: flex !important;
-  justify-content: center;
-}

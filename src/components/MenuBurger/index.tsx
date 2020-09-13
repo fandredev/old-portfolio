@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
-import { push as Menu } from "react-burger-menu";
+import { stack as Menu } from "react-burger-menu";
 import SocialMedia from "../Footer/SocialMedia";
-import rocket from "../../assets/images/icons/rocket.png";
 
 export default function MenuBurger(): JSX.Element {
   return (
@@ -25,9 +24,6 @@ export default function MenuBurger(): JSX.Element {
       <section>
         <SocialMedia />
       </section>
-      <figure id="rocket">
-        <img src={rocket} alt="Foguete ilustativo" />
-      </figure>
     </Menu>
   );
 }

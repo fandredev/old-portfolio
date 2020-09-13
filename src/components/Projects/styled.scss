@@ -8,9 +8,20 @@ section {
 
    > img {
      width: 10vw;
+    @media (min-width: 1001px) {
+       width: 6vw;
+    }
    }
-    // &:hover {
-    //   transition: all .0.5s ease-in-out;
-    // }
+
   }
+   > div[id="card-projects"] {
+     @media (min-width: $tablet-md) and (max-width: $computer){
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+     }
+    @media (min-width: 1001px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+   }
 }

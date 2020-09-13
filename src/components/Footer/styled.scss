@@ -21,5 +21,18 @@ footer {
   }
   > aside {
     line-height: 2.2rem;
+    @media (min-width: $tablet-md) and (max-width: $computer){
+     padding: 0 2rem;
+    }
+    > p {
+      > span {
+        // &:first-child {
+        //   color: #3178c6;
+        // }
+        // &:last-child {
+        //   color: #bf4080;
+        // }
+      }
+    }
   }
 }

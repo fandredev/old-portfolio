@@ -2,7 +2,6 @@ import React from "react";
 import "./styled.scss";
 import developer from "../../assets/images/developer.png";
 import myPhoto from "../../assets/images/icons/myPhoto.jpeg";
-import atom from "../../assets/images/icons/atom.png";
 
 export default function IntroduceMy(): JSX.Element {
   return (
@@ -10,10 +9,8 @@ export default function IntroduceMy(): JSX.Element {
       <figure>
         <img src={developer} alt="" />
       </figure>
-      <h2>
-        Introdução <img src={atom} alt={"Imagem ilustrativa de um atómo"} />
-      </h2>
-      <section>
+      <h2>Introdução</h2>
+      <section id="introduce">
         <i>
           <img src={myPhoto} alt="Felipe André" />
         </i>

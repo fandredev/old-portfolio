@@ -11,8 +11,8 @@ export default function Footer(): JSX.Element {
       <SocialMedia />
       <aside>
         <p>
-          Página feita com <span>Typescript</span> e{" "}
-          <span>
+          Página feita com ReactJS, <span>Typescript</span> e{" "}
+          <span id="sass">
             <abbr title="Syntactically Awesome Style Sheets">Sass</abbr>
           </span>
         </p>

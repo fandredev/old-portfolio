@@ -15,56 +15,50 @@ export default function Projects(): JSX.Element {
   return (
     <section>
       <h2>
-        Projetos <img src={mouse} alt={""} />
+        Projetos <img src={mouse} alt={"Imagem ilustrativa de um mouse"} />
       </h2>
-      <CardImages
-        image={linkedinClone}
-        description={"Clonando a interface web do linkedin"}
-        text={"Clonando a interface web do linkedin"}
-      />
-      <CardImages
-        image={bootstrapClone}
-        description={"Clonando a interface web do bootstrap"}
-        text={"Clonando a interface web do bootstrap"}
-      />
-      <CardImages
-        image={dropboxClone}
-        description={"Clonando a interface web do dropbox"}
-        text={"Clonando a interface web do dropbox"}
-      />
-      <CardImages
-        image={ecoletaClone}
-        description={"Clonando a interface web da next level week ecoleta"}
-        text={"Clonando a interface web da next level week ecoleta"}
-      />
-      <CardImages
-        image={githubClone}
-        description={"Clonando a interface web do site do github"}
-        text={"Clonando a interface web do site do github"}
-      />
-      <CardImages
-        image={npmClone}
-        description={"Clonando a interface web do site do npm"}
-        text={"Clonando a interface web do site do npm"}
-      />
-      <CardImages
-        image={reduxClone}
-        description={
-          "Clonando a interface web do 'agrupador de estados', redux"
-        }
-        text={"Clonando a interface web do 'agrupador de estados', redux"}
-      />
-      <CardImages
-        image={sassClone}
-        description={"Clonando a interface web do pré processador SASS"}
-        text={"Clonando a interface web do pré processador SASS"}
-      />
-
-      {/* <aside>
-        Observações:{" "}
-        <strong>Projetos no back-end podem ser encontrados aqui:</strong>
-        <a href="https://github.com/flubyGit" target="_blank"></a>
-      </aside> */}
+      <div id="card-projects">
+        <CardImages
+          image={linkedinClone}
+          description={"Clonando a interface web do linkedin"}
+          text={"Clonando a interface web do linkedin"}
+        />
+        <CardImages
+          image={bootstrapClone}
+          description={"Clonando a interface web do bootstrap"}
+          text={"Clonando a interface web do bootstrap"}
+        />
+        <CardImages
+          image={dropboxClone}
+          description={"Clonando a interface web do dropbox"}
+          text={"Clonando a interface web do dropbox"}
+        />
+        <CardImages
+          image={ecoletaClone}
+          description={"Clonando a interface web da Next Level Week Ecoleta"}
+          text={"Clonando a interface web da Next Level Week Ecoleta"}
+        />
+        <CardImages
+          image={githubClone}
+          description={"Clonando a interface web do github"}
+          text={"Clonando a interface web do github"}
+        />
+        <CardImages
+          image={npmClone}
+          description={"Clonando a interface web do npm"}
+          text={"Clonando a interface web do npm"}
+        />
+        <CardImages
+          image={reduxClone}
+          description={"Clonando a interface web do redux"}
+          text={"Clonando a interface web  do redux"}
+        />
+        <CardImages
+          image={sassClone}
+          description={"Clonando a interface web do SASS"}
+          text={"Clonando a interface web do SASS"}
+        />
+      </div>
     </section>
   );
 }

@@ -1,0 +1,18 @@
+@charset 'utf-8';
+@import '../../../globals/Variables.scss';
+
+ol {
+  color: #fff;
+  font-family: $secondary-font;
+  font-size:1.8rem;
+  @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
+    height: 100%;
+  }
+  > li {
+    cursor: pointer;
+
+    &:hover {
+      color:#c7ccec;
+    }
+  }
+}

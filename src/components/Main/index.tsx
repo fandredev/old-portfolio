@@ -8,7 +8,9 @@ export default function Main(): JSX.Element {
     <main>
       <section>
         <span>Heyy !!</span>
-        <h1>Eu sou o Felipe André =)</h1>
+        <h1>
+          Eu sou o <span>Felipe André :)</span>
+        </h1>
         <span>Web Developer Júnior</span>
       </section>
       <figure>

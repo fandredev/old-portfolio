@@ -6,11 +6,18 @@ $notABlack:#212529;
 $text:#777;
 $default-font: 'Roboto', sans-serif;
 $secondary-font: 'Kumbh Sans', sans-serif;
-$thirdary-font: 'Kumbh Sans', sans-serif;
+$thirdary-font: 'Raleway', sans-serif;
 $default-align-font-mobile: center;
 $box-shadow:0px 10px 30px #39383d34;
-
 
 //cards
 $card-bg: #af9bd5;
 $card-text: #6c757d;
+
+
+// Mq
+$mobile: 375px;
+$mobile-lg: 425px;
+$tablet-sm: 600px;
+$tablet-md: 800px;
+$computer: 1000px;
