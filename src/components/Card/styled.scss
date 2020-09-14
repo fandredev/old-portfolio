@@ -1,5 +1,6 @@
 @charset 'utf-8';
 @import '../../globals/Variables.scss';
+@import '../../globals/Mixins.scss';
 
 
 aside {
@@ -21,9 +22,7 @@ aside {
     text-decoration: none;
     > div[id="card"] {
     background: $primary;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include fullCenter;
     flex-flow: column;
     height: 50vh;
     width: 100%;

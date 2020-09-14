@@ -7,7 +7,7 @@ div[id="cards"] {
     display: grid;
     grid-template-columns: repeat(2,1fr);
    }
-   @media (min-width: 800px) and (max-width: 1000px){
+   @media (min-width: $tablet-md) and (max-width: $computer){
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
@@ -32,12 +32,9 @@ section[id="devops"] {
 
 h2 {
    @include titlePadronization;
+   @include fullCenter;
     line-height: 10rem;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
    > img {
      width: 10vw;
      margin-left: 2rem;
@@ -47,9 +44,7 @@ h2 {
      }
    }
   @media (min-width: 1001px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include fullCenter;
     font-size: 4rem;
     margin: 3rem 0;
    }

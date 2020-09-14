@@ -1,9 +1,10 @@
 import React, { useContext } from "react";
+
 import "./styled.scss";
-import MenuBurger from "../MenuBurger";
-import ListItems from "./ListItems";
 import rocket from "../../assets/images/icons/rocket.png";
 import { LandingContext } from "../../contexts/LandingContext";
+import MenuBurger from "../MenuBurger";
+import ListItems from "./ListItems";
 
 export default function Header(): JSX.Element {
   const landingContext = useContext(LandingContext);

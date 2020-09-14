@@ -1,18 +1,17 @@
 @charset 'utf-8';
 @import '../../globals/Variables.scss';
+@import '../../globals/Mixins.scss';
+
 footer {
   font-family: $thirdary-font;
   text-align: center;
   background: $secondary;
   height: 17vh;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  @include fullCenter;
   flex-flow: row wrap;
   color: #fff;
   ol {
-    display: flex;
-    align-items: center;
+    @include fullCenter;
     justify-content: space-evenly;
 
     > li {
@@ -23,16 +22,6 @@ footer {
     line-height: 2.2rem;
     @media (min-width: $tablet-md) and (max-width: $computer){
      padding: 0 2rem;
-    }
-    > p {
-      > span {
-        // &:first-child {
-        //   color: #3178c6;
-        // }
-        // &:last-child {
-        //   color: #bf4080;
-        // }
-      }
     }
   }
 }

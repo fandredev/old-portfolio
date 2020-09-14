@@ -2,12 +2,17 @@
 @import './Variables.scss';
 
 @mixin titlePadronization {
-    font-family: $secondary-font;
-    color: $text;
-    line-height: 5rem;
+  font-family: $secondary-font;
+  color: $text;
+  line-height: 5rem;
 }
 @mixin darkMode {
-  background-color: $dark-mode-bg;
+  background: $dark-mode-bg;
   color: $dark-mode-text;
   transition: $dark-mode-transition-bg;
+}
+@mixin fullCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

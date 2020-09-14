@@ -1,7 +1,8 @@
 import React from "react";
 import "./styled.scss";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+
 import developer from "../../assets/images/developer.png";
 import myPhoto from "../../assets/images/icons/myPhoto.jpeg";
 import Card from "../Card";

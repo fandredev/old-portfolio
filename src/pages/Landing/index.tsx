@@ -1,11 +1,11 @@
 import React from "react";
+
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Main from "../../components/Main";
 import IntroduceMy from "../../components/IntroduceMy";
+import Main from "../../components/Main";
 import Projects from "../../components/Projects";
 import Skills from "../../components/Skills";
-import Footer from "../../components/Footer";
-import "./styled.scss";
 
 const App: React.FC = () => {
   return (

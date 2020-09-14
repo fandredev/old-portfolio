@@ -73,7 +73,7 @@ section {
             display: flex;
             width: 100%;
           }
-          @media (min-width: 800px) and (max-width: 1000px){
+          @media (min-width: $tablet-md) and (max-width: $computer){
             width: 100%;
           }
           @media (min-width: 1001px) {

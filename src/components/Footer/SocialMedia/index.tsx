@@ -1,7 +1,7 @@
 import React from "react";
 import "./styled.scss";
-import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export default function SocialMedia(): JSX.Element {
   return (

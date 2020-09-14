@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import "./styled.scss";
-import Switch from "react-switch";
 import { FiMoon } from "react-icons/fi";
 import { WiSolarEclipse } from "react-icons/wi";
+import Switch from "react-switch";
+
 import rocket from "../../../assets/images/icons/rocket.png";
 import { DarkModeContext } from "../../../contexts/DarkModeContext";
 import { LandingContext } from "../../../contexts/LandingContext";

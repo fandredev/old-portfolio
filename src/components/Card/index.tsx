@@ -1,19 +1,21 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./styled.scss";
 
 interface Card<T, RN> {
-  readonly title: T;
-  readonly description: T;
-  readonly children: RN;
-  readonly url: T;
+  title: T;
+  description: T;
+  children: RN;
+  url: T;
 }
+
+type CardProps = Readonly<Card<string, ReactNode>>;
 
 export default function Card({
   title,
   description,
   children,
   url,
-}: Card<string, React.ReactNode>): JSX.Element {
+}: CardProps): JSX.Element {
   return (
     <aside>
       <a href={url} target="_blank" rel="noopener noreferrer">

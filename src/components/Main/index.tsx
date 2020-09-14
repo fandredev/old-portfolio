@@ -1,4 +1,5 @@
 import React from "react";
+
 import boyDeveloper from "../../assets/images/boyDeveloper.png";
 import "./styled.scss";
 
