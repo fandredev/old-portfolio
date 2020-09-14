@@ -1,11 +1,11 @@
 import React from "react";
 import "./styled.scss";
-import Card from "../../components/Card";
 import { DiCss3Full, DiJavascript1 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { BsBootstrap } from "react-icons/bs";
 import { FaSass, FaNode, FaReact, FaGithub, FaDocker } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
+import Card from "../../components/Card";
 import paperPlane from "../../assets/images/icons/plane.png";
 import atom from "../../assets/images/icons/atom.png";
 
@@ -16,53 +16,43 @@ export default function Skills(): JSX.Element {
         Hard Skills{" "}
         <img
           src={paperPlane}
-          alt={"Imagem ilustrativa de um aviãozinho de papel"}
+          alt="Imagem ilustrativa de um aviãozinho de papel"
         />
       </h2>
       <div id="cards">
         <Card
           title="HTML5"
-          description={
-            "Gosto bastante do sintaxe e ja trabalhei bastante com ela."
-          }
+          description="Gosto bastante do sintaxe e ja trabalhei bastante com ela."
         >
-          <ImHtmlFive size={25} color={"#fff"} />
+          <ImHtmlFive size={25} color="#fff" />
         </Card>
         <Card
           title="CSS3"
-          description={"CSS, o carinha que deixa tudo mais bonito <3"}
+          description="CSS, o carinha que deixa tudo mais bonito <3"
         >
           <DiCss3Full size={25} />
         </Card>
         <Card
           title="Sass"
-          description={
-            "O dinamismo que o SASS traz faz com que eu o utilize muito em meus projetos pessoais."
-          }
+          description="O dinamismo que o SASS traz faz com que eu o utilize muito em meus projetos pessoais."
         >
           <FaSass size={25} />
         </Card>
         <Card
           title="Bootstrap"
-          description={
-            "Utilizava demais, hoje utilizo pouco, mas, a agilidade com que o css trás e a responsividade faz o bootstrap ser muito querido!"
-          }
+          description="Utilizava demais, hoje utilizo pouco, mas, a agilidade com que o css trás e a responsividade faz o bootstrap ser muito querido!"
         >
           <BsBootstrap size={25} />
         </Card>
         <Card
           title="Javascript"
-          description={
-            "A linguagem de programação que me fez apaixonar pela area. Javascript é tudo de bom! <3"
-          }
+          description="A linguagem de programação que me fez apaixonar pela area. Javascript é tudo de bom! <3"
         >
           <DiJavascript1 size={25} />
         </Card>
         <Card
           title="Typescript"
-          description={
-            "O maior desafio que estou enfrentando é entender bem o superset do Javascript. Já iniciei alguns projetos com ReactJS + Typescript, mas, estou no processo de estudos e testes com ela. <3"
-          }
+          description="O maior desafio que estou enfrentando é entender bem o superset do Javascript. Já iniciei alguns projetos com ReactJS + Typescript, mas, estou no processo de estudos e testes com ela. <3"
         >
           <SiTypescript size={25} />
         </Card>
@@ -76,9 +66,7 @@ export default function Skills(): JSX.Element {
         </Card>
         <Card
           title="ReactJS"
-          description={
-            "Todo projeto que ínicio com front-end, ele tá incluso. ReactJS é maravilhoso, adoro componentizar e é de longe a ferramenta que mais gosto na programação."
-          }
+          description="Todo projeto que ínicio com front-end, ele tá incluso. ReactJS é maravilhoso, adoro componentizar e é de longe a ferramenta que mais gosto na programação."
         >
           <FaReact size={25} />
         </Card>
@@ -97,9 +85,7 @@ export default function Skills(): JSX.Element {
         </Card>
         <Card
           title="Docker"
-          description={
-            "Comecei a utilizar recentemente e estou curtindo a ideia de utilizar containers para as aplicações."
-          }
+          description="Comecei a utilizar recentemente e estou curtindo a ideia de utilizar containers para as aplicações."
         >
           <FaDocker size={25} />
         </Card>

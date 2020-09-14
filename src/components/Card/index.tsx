@@ -1,9 +1,9 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import "./styled.scss";
 
 interface Card<T, RN> {
   title: T;
-  description?: T;
+  description: T;
   children: RN;
 }
 
@@ -11,7 +11,7 @@ export default function Card({
   title,
   description,
   children,
-}: Card<string, ReactNode>): JSX.Element {
+}: Card<string, React.ReactNode>): JSX.Element {
   return (
     <aside>
       <div id="card">

@@ -1,6 +1,6 @@
 import React from "react";
-import boyDeveloper from "../../assets/images/boyDeveloper.png";
 import { Link } from "react-router-dom";
+import boyDeveloper from "../../assets/images/boyDeveloper.png";
 import "./styled.scss";
 
 export default function Main(): JSX.Element {
@@ -17,7 +17,7 @@ export default function Main(): JSX.Element {
         <img src={boyDeveloper} alt="" />
       </figure>
       <div>
-        <button>
+        <button type="button">
           <Link to="https://github.com/flubyGit">Saber mais</Link>
         </button>
       </div>

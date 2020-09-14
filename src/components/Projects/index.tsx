@@ -15,48 +15,48 @@ export default function Projects(): JSX.Element {
   return (
     <section>
       <h2>
-        Projetos <img src={mouse} alt={"Imagem ilustrativa de um mouse"} />
+        Projetos <img src={mouse} alt="Imagem ilustrativa de um mouse" />
       </h2>
       <div id="card-projects">
         <CardImages
           image={linkedinClone}
-          description={"Clonando a interface web do linkedin"}
-          text={"Clonando a interface web do linkedin"}
+          description="Clonando a interface web do linkedin"
+          text="Clonando a interface web do linkedin"
         />
         <CardImages
           image={bootstrapClone}
-          description={"Clonando a interface web do bootstrap"}
-          text={"Clonando a interface web do bootstrap"}
+          description="Clonando a interface web do bootstrap"
+          text="Clonando a interface web do bootstrap"
         />
         <CardImages
           image={dropboxClone}
-          description={"Clonando a interface web do dropbox"}
-          text={"Clonando a interface web do dropbox"}
+          description="Clonando a interface web do dropbox"
+          text="Clonando a interface web do dropbox"
         />
         <CardImages
           image={ecoletaClone}
-          description={"Clonando a interface web da Next Level Week Ecoleta"}
-          text={"Clonando a interface web da Next Level Week Ecoleta"}
+          description="Clonando a interface web da Next Level Week Ecoleta"
+          text="Clonando a interface web da Next Level Week Ecoleta"
         />
         <CardImages
           image={githubClone}
-          description={"Clonando a interface web do github"}
-          text={"Clonando a interface web do github"}
+          description="Clonando a interface web do github"
+          text="Clonando a interface web do github"
         />
         <CardImages
           image={npmClone}
-          description={"Clonando a interface web do npm"}
-          text={"Clonando a interface web do npm"}
+          description="Clonando a interface web do npm"
+          text="Clonando a interface web do npm"
         />
         <CardImages
           image={reduxClone}
-          description={"Clonando a interface web do redux"}
-          text={"Clonando a interface web  do redux"}
+          description="Clonando a interface web do redux"
+          text="Clonando a interface web  do redux"
         />
         <CardImages
           image={sassClone}
-          description={"Clonando a interface web do SASS"}
-          text={"Clonando a interface web do SASS"}
+          description="Clonando a interface web do SASS"
+          text="Clonando a interface web do SASS"
         />
       </div>
     </section>

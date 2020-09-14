@@ -16,7 +16,7 @@ export default function Footer(): JSX.Element {
             <abbr title="Syntactically Awesome Style Sheets">Sass</abbr>
           </span>
         </p>
-        <span>{date} &mdash; Felipe André</span>
+        <span> {date} &mdash; Felipe André</span>
       </aside>
     </footer>
   );
