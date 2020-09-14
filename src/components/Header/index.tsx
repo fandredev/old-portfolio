@@ -1,21 +1,13 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useContext } from "react";
 import "./styled.scss";
 import MenuBurger from "../MenuBurger";
 import ListItems from "./ListItems";
 import rocket from "../../assets/images/icons/rocket.png";
+import { LandingContext } from "../../contexts/LandingContext";
 
 export default function Header(): JSX.Element {
-  const [width, setWidth] = useState(window.innerWidth);
-
-  const handleWindowState = useCallback(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
-  useEffect(() => {
-    window.addEventListener("resize", handleWindowState);
-
-    return () => window.removeEventListener("resize", handleWindowState);
-  }, [handleWindowState]);
+  const landingContext = useContext(LandingContext);
+  const { width } = landingContext;
 
   return (
     <header>
@@ -27,7 +19,7 @@ export default function Header(): JSX.Element {
           </figure>
         </>
       ) : (
-        <ListItems width={width} />
+        <ListItems />
       )}
     </header>
   );

@@ -1,34 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useContext } from "react";
 import "./styled.scss";
 import Switch from "react-switch";
 import rocket from "../../../assets/images/icons/rocket.png";
+import { DarkModeContext } from "../../../contexts/DarkModeContext";
+import { LandingContext } from "../../../contexts/LandingContext";
 
-interface DarkTheme<T> {
-  dark: T;
-}
-interface Width<T> {
-  readonly width: T;
-}
-export default function ListItems({ width }: Width<number>): JSX.Element {
-  const [theme, setTheme] = useState<DarkTheme<boolean>>({
-    dark: false,
-  });
-  useEffect(() => {
-    const getThemeLocalStorage = window.localStorage.getItem("Theme");
-    if (getThemeLocalStorage) return document.body.classList.add("dark-mode");
-  }, []);
-  function handleTheme(): void {
-    if (theme.dark) {
-      window.localStorage.setItem("Theme", "dark");
-      setTheme({ dark: true });
-      document.body.classList.add("dark-mode");
-    } else {
-      window.localStorage.setItem("Theme", "light");
-      setTheme({ dark: false });
-      document.body.classList.remove("dark-mode");
-    }
-    setTheme({ dark: !theme.dark });
-  }
+export default function ListItems(): JSX.Element {
+  const darkContext = useContext(DarkModeContext);
+  const landingContext = useContext(LandingContext);
+
+  const { theme, handleTheme } = darkContext;
+  const { width } = landingContext;
 
   return (
     <>
@@ -52,7 +34,7 @@ export default function ListItems({ width }: Width<number>): JSX.Element {
         </li>
         <li>
           {width > 600 && (
-            <Switch onChange={handleTheme} checked={theme.dark} />
+            <Switch onChange={() => handleTheme()} checked={theme} />
           )}
         </li>
       </ol>
