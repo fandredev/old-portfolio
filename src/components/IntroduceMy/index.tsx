@@ -51,7 +51,7 @@ export default function IntroduceMy(): JSX.Element {
           <img src={myPhoto} alt="Felipe André" />
         </i>
         <article>
-          &quot;Meu nome é Felipe André e tenho 19 anos e moro na região oeste
+          &quot;Meu nome é Felipe André e tenho 20 anos e moro na região oeste
           de São Paulo. Sou estudante de tecnologia desde os 17 anos e sou grato
           pelo progresso que venho aprendendo com a{" "}
           <abbr title="World Wide Web">web</abbr> e com esse mundo vasto da web

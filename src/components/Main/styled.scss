@@ -23,7 +23,6 @@ main {
   > section {
     padding-top: 11rem;
     text-align: $default-align-font-mobile;
-    color: $notABlack;
     font-size: 2.5rem;
     font-family: $secondary-font;
     line-height: 5rem;
@@ -38,6 +37,7 @@ main {
     }
     & h1 {
       font-size: 3rem;
+         color:$notABlack;
       @media (min-width: 1001px) {
         font-size: 4rem;
       }

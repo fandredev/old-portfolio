@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import "./styled.scss";
 import Switch from "react-switch";
+import { FiMoon } from "react-icons/fi";
+import { WiSolarEclipse } from "react-icons/wi";
 import rocket from "../../../assets/images/icons/rocket.png";
 import { DarkModeContext } from "../../../contexts/DarkModeContext";
 import { LandingContext } from "../../../contexts/LandingContext";
@@ -34,7 +36,13 @@ export default function ListItems(): JSX.Element {
         </li>
         <li>
           {width > 600 && (
-            <Switch onChange={() => handleTheme()} checked={theme} />
+            <Switch
+              onChange={() => handleTheme()}
+              checked={theme}
+              offColor="#000"
+              uncheckedIcon={<FiMoon size={25} />}
+              checkedIcon={<WiSolarEclipse size={25} />}
+            />
           )}
         </li>
       </ol>

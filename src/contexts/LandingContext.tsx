@@ -19,7 +19,7 @@ export const LandingContext = createContext<WidthProps<number>>({
 
 export default function LandingProvider({
   children,
-}: ChildrenProps<ReactNode>) {
+}: ChildrenProps<ReactNode>): JSX.Element {
   const [width, setWidth] = useState(window.innerWidth);
 
   const handleWindowState = useCallback(() => {

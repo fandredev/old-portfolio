@@ -13,7 +13,6 @@ export const DarkModeContext = createContext<Dark>({
 interface Children<RN> {
   children: RN;
 }
-
 export default function DarkModeProvider({
   children,
 }: Children<ReactNode>): JSX.Element {
