@@ -1,16 +1,11 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
 import ReactDOM from "react-dom";
 import App from "./pages/Landing";
 import "./globals/Reset.scss";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={App} />
-      </Switch>
-    </BrowserRouter>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

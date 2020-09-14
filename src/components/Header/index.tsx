@@ -27,7 +27,7 @@ export default function Header(): JSX.Element {
           </figure>
         </>
       ) : (
-        <ListItems />
+        <ListItems width={width} />
       )}
     </header>
   );

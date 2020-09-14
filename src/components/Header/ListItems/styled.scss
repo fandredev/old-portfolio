@@ -8,12 +8,15 @@ ol {
   @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
     height: 100%;
   }
-  > li {
+  > li{
     cursor: pointer;
 
-    &:hover {
+    > a {
       color:#c7ccec;
-      transition: all 0.2s ease-in;
+      &:hover {
+        transition: all 0.2s ease-in;
+        opacity: .6
+      }
     }
     > figure {
         transition: transform .4s;

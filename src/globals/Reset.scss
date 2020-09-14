@@ -1,5 +1,6 @@
 @charset 'utf-8';
 @import './Variables.scss';
+@import './Mixins.scss';
 
 *, *::after, *::before{
   margin: 0;
@@ -12,6 +13,12 @@ html {
 }
 body {
   font-size: 1.6rem;
+}
+body.dark-mode {
+  @include darkMode;
+}
+body.dark-mode span, .body-dark-mode h2, .body-dark-mode h1 {
+    color: $dark-mode-text;
 }
 ul, li {
   list-style: none;

@@ -1,21 +1,30 @@
 import React from "react";
 import "./styled.scss";
-import { FaGithub, FaDiscord, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function SocialMedia(): JSX.Element {
   return (
     <ol>
       <li>
-        <FaGithub size={20} />
+        <a href="https://github.com/flubyGit">
+          <FaGithub size={20} />
+        </a>
       </li>
       <li>
-        <FaDiscord size={20} />
+        <a href="mailto:profissionalf.andre@gmail.com?subject=Olá Felipe...">
+          <AiOutlineMail size={20} />
+        </a>
       </li>
       <li>
-        <FaLinkedin size={20} />
+        <a href="https://www.linkedin.com/in/devfandre/">
+          <FaLinkedin size={20} />
+        </a>
       </li>
       <li>
-        <FaWhatsapp size={20} />
+        <a href="http://wa.me/5511973813705?Olá Felipe...">
+          <FaWhatsapp size={20} />
+        </a>
       </li>
     </ol>
   );

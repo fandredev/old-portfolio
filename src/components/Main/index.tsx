@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import boyDeveloper from "../../assets/images/boyDeveloper.png";
 import "./styled.scss";
 
@@ -18,7 +17,13 @@ export default function Main(): JSX.Element {
       </figure>
       <div>
         <button type="button">
-          <Link to="https://github.com/flubyGit">Saber mais</Link>
+          <a
+            href="https://github.com/flubyGit"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Saiba mais
+          </a>
         </button>
       </div>
     </main>

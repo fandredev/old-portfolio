@@ -12,7 +12,7 @@ import atom from "../../assets/images/icons/atom.png";
 export default function Skills(): JSX.Element {
   return (
     <>
-      <h2>
+      <h2 id="skills">
         Hard Skills{" "}
         <img
           src={paperPlane}
@@ -21,42 +21,49 @@ export default function Skills(): JSX.Element {
       </h2>
       <div id="cards">
         <Card
+          url=""
           title="HTML5"
-          description="Gosto bastante do sintaxe e ja trabalhei bastante com ela."
+          description="Utilizo diariamente para deixar estrutura e SEO de uma maneira correta."
         >
           <ImHtmlFive size={25} color="#fff" />
         </Card>
         <Card
+          url=""
           title="CSS3"
-          description="CSS, o carinha que deixa tudo mais bonito <3"
+          description="Utilizo diariamente para deixar meus projetos com um carinha mais bonita."
         >
           <DiCss3Full size={25} />
         </Card>
         <Card
+          url=""
           title="Sass"
           description="O dinamismo que o SASS traz faz com que eu o utilize muito em meus projetos pessoais."
         >
           <FaSass size={25} />
         </Card>
         <Card
+          url=""
           title="Bootstrap"
-          description="Utilizava demais, hoje utilizo pouco, mas, a agilidade com que o css trás e a responsividade faz o bootstrap ser muito querido!"
+          description="Utilizo bastante quando quero algo mais depressa, por mais que ainda utilize muito o SASS e CSS puro."
         >
           <BsBootstrap size={25} />
         </Card>
         <Card
+          url=""
           title="Javascript"
           description="A linguagem de programação que me fez apaixonar pela area. Javascript é tudo de bom! <3"
         >
           <DiJavascript1 size={25} />
         </Card>
         <Card
+          url=""
           title="Typescript"
           description="O maior desafio que estou enfrentando é entender bem o superset do Javascript. Já iniciei alguns projetos com ReactJS + Typescript, mas, estou no processo de estudos e testes com ela. <3"
         >
           <SiTypescript size={25} />
         </Card>
         <Card
+          url=""
           title="NodeJS"
           description={
             "Utilizo node frequentemente juntamente com o express para criação de API's básicas para complemento com o front-end"
@@ -65,8 +72,9 @@ export default function Skills(): JSX.Element {
           <FaNode size={25} />
         </Card>
         <Card
+          url=""
           title="ReactJS"
-          description="Todo projeto que ínicio com front-end, ele tá incluso. ReactJS é maravilhoso, adoro componentizar e é de longe a ferramenta que mais gosto na programação."
+          description="O que mais venho utilizando recentemente. Não tem um projeto front-end que eu inicie que ele não esteja no meio."
         >
           <FaReact size={25} />
         </Card>
@@ -76,14 +84,14 @@ export default function Skills(): JSX.Element {
       </h2>
       <section id="devops">
         <Card
+          url=""
           title="Git/Github"
-          description={
-            "Utilizo muito, pode ser um projeto mínino e básico, estou utilizando essa 'belezinha'"
-          }
+          description="Utilizo diariamente para networking, pesquisa de bibliotecas, armazenamento de projetos pessoais e etc..."
         >
           <FaGithub size={25} />
         </Card>
         <Card
+          url=""
           title="Docker"
           description="Comecei a utilizar recentemente e estou curtindo a ideia de utilizar containers para as aplicações."
         >

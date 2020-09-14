@@ -17,7 +17,9 @@ aside {
    @media (min-width: 1001px) {
      padding: 0 1rem;
    }
-  div[id="card"] {
+  > a {
+    text-decoration: none;
+    > div[id="card"] {
     background: $primary;
     display: flex;
     justify-content: center;
@@ -52,5 +54,6 @@ aside {
       color: #fff;
       line-height: 2.6rem;
     }
+  }
   }
 }

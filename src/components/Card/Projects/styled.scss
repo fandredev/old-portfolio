@@ -1,36 +1,40 @@
 @charset 'utf-8';
 @import '../../../globals/Variables.scss';
 
-div[id="projects"] {
-  margin: 5rem 0;
+a {
+  text-decoration: none;
+  div[id="projects"] {
+    margin: 5rem 0;
 
-  @media (min-width: $mobile-lg) {
-    padding: 0 4rem;
-  }
-  @media (min-width: $tablet-md) and (max-width: $computer){
-     padding: 0 1rem;
-  }
-
-     &:hover {
-      box-shadow: $box-shadow;
-    }
-
-  > h2 {
-    transition: color .1s;
-    &:hover {
-      color: purple;
-      opacity: .8;
-    }
-  }
-  > img {
-    width: 100%;
-    height: auto;
-
-    @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
-      height: 50vh;
+    @media (min-width: $mobile-lg) {
+      padding: 0 4rem;
     }
     @media (min-width: $tablet-md) and (max-width: $computer){
-     height: auto;
+      padding: 0 1rem;
+    }
+
+      &:hover {
+        box-shadow: $box-shadow;
+      }
+
+    > h2 {
+      transition: color .1s;
+      &:hover {
+        color: purple;
+        opacity: .8;
+      }
+    }
+    > img {
+      width: 100%;
+      height: auto;
+
+      @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
+        height: 50vh;
+      }
+      @media (min-width: $tablet-md) and (max-width: $computer){
+      height: auto;
+      }
     }
   }
 }
+

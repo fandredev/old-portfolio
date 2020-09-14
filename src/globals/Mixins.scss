@@ -6,3 +6,8 @@
     color: $text;
     line-height: 5rem;
 }
+@mixin darkMode {
+  background-color: $dark-mode-bg;
+  color: $dark-mode-text;
+  transition: $dark-mode-transition-bg;
+}
