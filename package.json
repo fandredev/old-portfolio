@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@commitlint/cli": "^11.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -58,7 +57,6 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^9.1.2",
     "@types/react-burger-menu": "^2.6.1",
     "@types/react-icons": "^3.0.0",
     "@types/react-router-dom": "^5.1.5",
@@ -66,7 +64,6 @@
     "@typescript-eslint/parser": "^4.1.0",
     "commitizen": "^4.2.1",
     "css-loader": "^4.3.0",
-    "cz-conventional-changelog": "3.3.0",
     "eslint": "6.6.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -89,9 +86,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
@@ -99,10 +94,5 @@
       "eslint --fix",
       "prettier --write"
     ]
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }

@@ -1,15 +1,17 @@
 import React from "react";
+
 import "./styled.scss";
-import CardImages from "../Card/Projects";
-import linkedinClone from "../../assets/images/clones/linkedin.png";
 import bootstrapClone from "../../assets/images/clones/bootstrap.png";
 import dropboxClone from "../../assets/images/clones/dropbox.png";
 import ecoletaClone from "../../assets/images/clones/ecoleta.png";
 import githubClone from "../../assets/images/clones/github.png";
+import githubDesk from "../../assets/images/clones/githubDesk.png";
+import linkedinClone from "../../assets/images/clones/linkedin.png";
 import npmClone from "../../assets/images/clones/npm.png";
 import reduxClone from "../../assets/images/clones/redux.png";
 import sassClone from "../../assets/images/clones/sass.png";
 import mouse from "../../assets/images/icons/mouse.png";
+import CardImages from "../Card/Projects";
 
 export default function Projects(): JSX.Element {
   return (
@@ -65,6 +67,12 @@ export default function Projects(): JSX.Element {
           description="Clonando a interface web do SASS"
           text="Clonando a interface web do SASS"
           url="https://ui-clone-sass.flubygit.vercel.app/"
+        />
+        <CardImages
+          image={githubDesk}
+          description="Clonando a interface web do github desktop"
+          text="Clonando a interface web do github desktop"
+          url="https://githubdesktop.vercel.app/"
         />
       </div>
     </section>
