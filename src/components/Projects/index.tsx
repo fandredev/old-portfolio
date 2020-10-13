@@ -9,6 +9,7 @@ import githubDesk from "../../assets/images/clones/githubDesk.png";
 import happy from "../../assets/images/clones/happy.png";
 import linkedinClone from "../../assets/images/clones/linkedin.png";
 import npmClone from "../../assets/images/clones/npm.png";
+import nubank from "../../assets/images/clones/nubank.png";
 import reduxClone from "../../assets/images/clones/redux.png";
 import sassClone from "../../assets/images/clones/sass.png";
 import mouse from "../../assets/images/icons/mouse.png";
@@ -80,6 +81,12 @@ export default function Projects(): JSX.Element {
           description="Clonando a interface web da Next Level Week | Happy"
           text="Clonando a interface web da Next Level Week | Happy"
           url="https://nlwhappy.vercel.app/"
+        />
+        <CardImages
+          image={nubank}
+          description="Clonando a interface web do Nubank"
+          text="Clonando a interface web do Nubank"
+          url="https://nubank.vercel.app/"
         />
       </div>
     </section>
