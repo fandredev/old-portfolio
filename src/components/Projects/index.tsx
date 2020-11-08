@@ -2,6 +2,7 @@ import React from "react";
 
 import "./styled.scss";
 import bootstrapClone from "../../assets/images/clones/bootstrap.png";
+import devscore from "../../assets/images/clones/devscore.png";
 import dropboxClone from "../../assets/images/clones/dropbox.png";
 import ecoletaClone from "../../assets/images/clones/ecoleta.png";
 import githubClone from "../../assets/images/clones/github.png";
@@ -87,6 +88,12 @@ export default function Projects(): JSX.Element {
           description="Clonando a interface web do Nubank"
           text="Clonando a interface web do Nubank"
           url="https://nubank.vercel.app/"
+        />
+        <CardImages
+          image={devscore}
+          description="DevScore (Em andamento)"
+          text="DevScore (Em andamento...)"
+          url="https://devscore.vercel.app/"
         />
       </div>
     </section>

@@ -3,7 +3,7 @@ import { BsBootstrap } from "react-icons/bs";
 import { DiCss3Full, DiJavascript1 } from "react-icons/di";
 import { FaDocker, FaGithub, FaNode, FaReact, FaSass } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiNextDotJs } from "react-icons/si";
 
 import atom from "../../assets/images/icons/atom.png";
 import paperPlane from "../../assets/images/icons/plane.png";
@@ -59,7 +59,7 @@ export default function Skills(): JSX.Element {
         <Card
           url=""
           title="Typescript"
-          description="O maior desafio que estou enfrentando é entender bem o superset do Javascript. Já iniciei alguns projetos com ReactJS + Typescript, mas, estou no processo de estudos e testes com ela. <3"
+          description="Venho utilizando muito atualmente junto com Next.JS e React.JS. 'Tipar' as coisas é muito importante =)"
         >
           <SiTypescript size={25} />
         </Card>
@@ -85,6 +85,13 @@ export default function Skills(): JSX.Element {
           description="Outro que venho utilizando recentemente, inclusive eu trabalho atualmente com a tecnologia. Mobile e Web com React é demais!!"
         >
           <FaReact size={25} />
+        </Card>
+        <Card
+          url=""
+          title="Next.JS"
+          description="Meus estudos com o framework estão iniciando agora. Estou adorando usar ele até o momento, mas, ainda em estudo."
+        >
+          <SiNextDotJs size={25} />
         </Card>
       </div>
       <h2>
