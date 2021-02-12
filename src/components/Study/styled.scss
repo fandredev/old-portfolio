@@ -1,0 +1,19 @@
+@charset 'utf-8';
+@import "../../globals/Variables.scss";
+@import "../../globals/Mixins.scss";
+
+div[id="study"] {
+  @media (min-width: $tablet-sm) and (max-width: $tablet-md) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: $tablet-md) and (max-width: $computer) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 1001px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 8rem;
+  }
+}

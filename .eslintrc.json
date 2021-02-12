@@ -37,19 +37,6 @@
     "no-use-before-define":"off",
     "no-redeclare":"off",
     "no-unused-vars":"off",
-    "consistent-return":"off",
-    "import-helpers/order-imports": ["warn",
-      {
-        "newlinesBetween": "always",
-        "groups": [
-          "/^react/",
-          "module",
-          ["parent", "sibling", "index"]
-        ],
-        "alphabetize": { "order": "asc", "ignoreCase": true
-        }
-      }
-    ]
+    "consistent-return":"off"
   }
 }
-

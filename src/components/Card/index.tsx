@@ -1,14 +1,6 @@
-import React, { ReactNode } from "react";
+import React from "react";
+import { CardProps } from "../../types/components";
 import "./styled.scss";
-
-interface Card<T, RN> {
-  title: T;
-  description: T;
-  children: RN;
-  url: T;
-}
-
-type CardProps = Readonly<Card<string, ReactNode>>;
 
 export default function Card({
   title,

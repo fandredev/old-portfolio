@@ -1,12 +1,6 @@
 import React from "react";
+import { Project } from "../../../interfaces/components";
 import "./styled.scss";
-
-interface Project<T> {
-  image: T;
-  description: T;
-  text: T;
-  url: T;
-}
 
 export default function CardProjects({
   image,
