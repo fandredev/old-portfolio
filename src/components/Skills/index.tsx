@@ -3,14 +3,41 @@ import { BsBootstrap } from "react-icons/bs";
 import { DiCss3Full, DiJavascript1 } from "react-icons/di";
 import { FaDocker, FaGithub, FaNode, FaReact, FaSass } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
-import { SiTypescript, SiNextDotJs } from "react-icons/si";
-
+import { SiTypescript } from "react-icons/si";
 import atom from "../../assets/images/icons/atom.png";
 import paperPlane from "../../assets/images/icons/plane.png";
 import Card from "../../components/Card";
+import Techs, { DescTechs } from "../../enums";
+import Study from "../Study";
 import "./styled.scss";
 
 export default function Skills(): JSX.Element {
+  const {
+    Bootstrap,
+    HTML5,
+    Sass,
+    CSS3,
+    Javascript,
+    Typescript,
+    ReactJS,
+    ReactNative,
+    NodeJS,
+    Docker,
+    GitGitHub,
+  } = Techs;
+  const {
+    HTML5Desc,
+    CSS3Desc,
+    SASSDesc,
+    BootstrapDesc,
+    JavascriptDesc,
+    TypescriptDesc,
+    NodeJSDesc,
+    ReactJSDesc,
+    ReactNativeDesc,
+    GitDesc,
+    DockerDesc,
+  } = DescTechs;
   return (
     <>
       <h2 id="skills">
@@ -21,95 +48,43 @@ export default function Skills(): JSX.Element {
         />
       </h2>
       <div id="cards">
-        <Card
-          url=""
-          title="HTML5"
-          description="Utilizo diariamente para deixar estrutura e SEO de uma maneira correta."
-        >
+        <Card url="" title={HTML5} description={HTML5Desc}>
           <ImHtmlFive size={25} color="#fff" />
         </Card>
-        <Card
-          url=""
-          title="CSS3"
-          description="Utilizo diariamente para deixar meus projetos com um carinha mais bonita."
-        >
+        <Card url="" title={CSS3} description={CSS3Desc}>
           <DiCss3Full size={25} />
         </Card>
-        <Card
-          url=""
-          title="Sass"
-          description="O dinamismo que o SASS traz faz com que eu o utilize muito em meus projetos pessoais."
-        >
+        <Card url="" title={Sass} description={SASSDesc}>
           <FaSass size={25} />
         </Card>
-        <Card
-          url=""
-          title="Bootstrap"
-          description="Utilizo bastante quando quero algo mais depressa, por mais que ainda utilize muito o SASS e CSS puro."
-        >
+        <Card url="" title={Bootstrap} description={BootstrapDesc}>
           <BsBootstrap size={25} />
         </Card>
-        <Card
-          url=""
-          title="Javascript"
-          description="A linguagem de programação que me fez apaixonar pela area. Javascript é tudo de bom! <3"
-        >
+        <Card url="" title={Javascript} description={JavascriptDesc}>
           <DiJavascript1 size={25} />
         </Card>
-        <Card
-          url=""
-          title="Typescript"
-          description="Venho utilizando muito atualmente junto com Next.JS e React.JS. 'Tipar' as coisas é muito importante =)"
-        >
+        <Card url="" title={Typescript} description={TypescriptDesc}>
           <SiTypescript size={25} />
         </Card>
-        <Card
-          url=""
-          title="NodeJS"
-          description={
-            "Utilizo node frequentemente juntamente com o express para criação de API's básicas para complemento com o front-end"
-          }
-        >
+        <Card url="" title={NodeJS} description={NodeJSDesc}>
           <FaNode size={25} />
         </Card>
-        <Card
-          url=""
-          title="ReactJS"
-          description="O que mais venho utilizando recentemente. Não tem um projeto front-end que eu inicie que ele não esteja no meio."
-        >
+        <Card url="" title={ReactJS} description={ReactJSDesc}>
           <FaReact size={25} />
         </Card>
-        <Card
-          url=""
-          title="React Native"
-          description="Outro que venho utilizando recentemente, inclusive eu trabalho atualmente com a tecnologia. Mobile e Web com React é demais!!"
-        >
+        <Card url="" title={ReactNative} description={ReactNativeDesc}>
           <FaReact size={25} />
-        </Card>
-        <Card
-          url=""
-          title="Next.JS"
-          description="Meus estudos com o framework estão iniciando agora. Estou adorando usar ele até o momento, mas, ainda em estudo."
-        >
-          <SiNextDotJs size={25} />
         </Card>
       </div>
+      <Study />
       <h2>
         DevOps <img src={atom} alt="Imagem de um atómo" />
       </h2>
       <section id="devops">
-        <Card
-          url=""
-          title="Git/Github"
-          description="Utilizo diariamente para networking, pesquisa de bibliotecas, armazenamento de projetos pessoais e etc..."
-        >
+        <Card url="" title={GitGitHub} description={GitDesc}>
           <FaGithub size={25} />
         </Card>
-        <Card
-          url=""
-          title="Docker"
-          description="Comecei a utilizar recentemente e estou curtindo a ideia de utilizar containers para as aplicações."
-        >
+        <Card url="" title={Docker} description={DockerDesc}>
           <FaDocker size={25} />
         </Card>
       </section>

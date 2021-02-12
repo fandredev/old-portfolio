@@ -1,11 +1,10 @@
 import React from "react";
-import "./styled.scss";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-
 import developer from "../../assets/images/developer.png";
 import myPhoto from "../../assets/images/icons/myPhoto.jpeg";
 import Card from "../Card";
+import "./styled.scss";
 
 export default function IntroduceMy(): JSX.Element {
   return (
@@ -57,11 +56,10 @@ export default function IntroduceMy(): JSX.Element {
           pelo progresso que venho aprendendo com a{" "}
           <abbr title="World Wide Web">web</abbr> e com esse mundo vasto da web
           em si. Adoro front-end, javascript, back-end e estou em constante
-          evolução para me tornar um desenvolvedor full-stack melhor a cada
-          dia!&quot; Estou a disposição para novos desafios, trabalhos, metas e
-          objetivos, sempre visando a boa qualidade de código, semântica,{" "}
-          <abbr title="Search Engine Optimization">SEO</abbr> e todo o mundo que
-          envolve a<abbr title="World Wide Web">&nbsp;web</abbr>&quot;.
+          evolução para me tornar um desenvolvedor full-stack melhor a cada dia!
+          Atualmento atuo como Desenvolvedor Júnior na empresa ZapSign atuando
+          como front-end com Angular 11 e pretendo estudar Python/Django
+          futuramente.
         </article>
       </section>
     </section>
