@@ -5,14 +5,16 @@
 
 ## :checkered_flag: Índice
 
-* [Sobre](#bulb-sobre)
-* [Demo](#iphone-demo)
-  * [Deploy](#live)
-  * [Web](#web)
-  * [Mobile](#mobile)
-* [Tecnologias](#computer-tecnologias)
-* [Como utilizar](#wrench-como-utilizar)
-* [Contatos](#mailbox_with_no_mail-contatos)
+- [Portfólio - Felipe André](#portfólio---felipe-andré)
+  - [:checkered_flag: Índice](#checkered_flag-índice)
+  - [:bulb: Sobre](#bulb-sobre)
+  - [:iphone: Demo](#iphone-demo)
+    - [Deploy](#deploy)
+    - [Web Preview](#web-preview)
+    - [Mobile Preview](#mobile-preview)
+    - [:computer: Tecnologias:](#computer-tecnologias)
+    - [:wrench: Como Utilizar](#wrench-como-utilizar)
+  - [:mailbox_with_no_mail: Contatos](#mailbox_with_no_mail-contatos)
 
 ## :bulb: Sobre
 Meu portifólio pessoal na versão Alpha com ReactJS,
@@ -42,17 +44,17 @@ A aplicação poderá ser acessada aqui: https://portfolio.flubygit.vercel.app/
 ### :wrench: Como Utilizar
 
 1. Clone esse repositório:
-```sh 
+```sh
 git@github.com:flubyGit/portfolio.git
 ```
 2. Abra o projeto no seu editor de texto
 3. No seu terminal, instale os pacotes necessários
-```sh 
-yarn install
-``` 
+```sh
+npm i ou yarn install
+```
 4. Agora você pode iniciar o server
-```sh 
-yarn run dev
+```sh
+npm run dev ou yarn run dev
 ```
 5. Tudo ok! Abra a página no navegador com o seguinte endereço: http://localhost:3000
 
@@ -60,5 +62,3 @@ yarn run dev
 E-mail: profissioanalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
 Discord: ...this
-
-   
