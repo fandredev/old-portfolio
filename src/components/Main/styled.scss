@@ -38,7 +38,7 @@ main {
     }
     & h1 {
       font-size: 3rem;
-         color:$notABlack;
+      color:$notABlack;
       @media (min-width: 1001px) {
         font-size: 4rem;
       }
@@ -58,8 +58,9 @@ main {
        height: 54vh;
 
        @media (min-width: $mobile) {
-         width: 85%;
-        height: 50vh;
+         width: 100%;
+         height: 50vh;
+         object-fit: contain;
        }
        @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
          width: 100%;

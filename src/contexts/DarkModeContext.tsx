@@ -36,9 +36,7 @@ export default function DarkModeProvider({
     if (getThemeLocalStorage) return document.body.classList.add("dark-mode");
   }, []);
 
-  const value = { handleTheme, theme };
-  Object.freeze(value);
-
+  const value = Object.freeze({ handleTheme, theme });
   return (
     <DarkModeContext.Provider value={value}>
       {children}

@@ -2,7 +2,7 @@ export interface Card<T, RN> {
   title: T;
   description: T;
   children: RN;
-  url: T;
+  url?: T;
 }
 export interface Project<T> {
   image: T;

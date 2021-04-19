@@ -58,8 +58,7 @@ export default function IntroduceMy(): JSX.Element {
           em si. Adoro front-end, javascript, back-end e estou em constante
           evolução para me tornar um desenvolvedor full-stack melhor a cada dia!
           Atualmento atuo como Desenvolvedor Júnior na empresa ZapSign atuando
-          como front-end com Angular 11 e pretendo estudar Python/Django
-          futuramente.
+          como front-end com Angular 11 e Python/Django futuramente.&quot;
         </article>
       </section>
     </section>

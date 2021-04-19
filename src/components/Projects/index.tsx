@@ -13,6 +13,7 @@ import npmClone from "../../assets/images/clones/npm.png";
 import nubank from "../../assets/images/clones/nubank.png";
 import reduxClone from "../../assets/images/clones/redux.png";
 import sassClone from "../../assets/images/clones/sass.png";
+import moveit from "../../assets/images/clones/moveit.png";
 import mouse from "../../assets/images/icons/mouse.png";
 import CardImages from "../Card/Projects";
 
@@ -43,8 +44,8 @@ export default function Projects(): JSX.Element {
         />
         <CardImages
           image={ecoletaClone}
-          description="Clonando a interface web da Next Level Week Ecoleta"
-          text="Clonando a interface web da Next Level Week Ecoleta"
+          description="NLW 2| Ecoleta"
+          text="NLW 2 | Ecoleta"
           url="https://ecoleta-xi.vercel.app/"
         />
         <CardImages
@@ -79,8 +80,8 @@ export default function Projects(): JSX.Element {
         />
         <CardImages
           image={happy}
-          description="Clonando a interface web da Next Level Week | Happy"
-          text="Clonando a interface web da Next Level Week | Happy"
+          description="NLW 3 | Happy"
+          text="NLW 3 | Happy"
           url="https://nlwhappy.vercel.app/"
         />
         <CardImages
@@ -91,9 +92,15 @@ export default function Projects(): JSX.Element {
         />
         <CardImages
           image={devscore}
-          description="DevScore (Em andamento)"
-          text="DevScore (Em andamento...)"
+          description="DevScore"
+          text="DevScore"
           url="https://devscore.vercel.app/"
+        />
+        <CardImages
+          image={moveit}
+          description="NLW 4 | move.it"
+          text="NLW 4 | move.it"
+          url="https://nlw-4-rocket.vercel.app/"
         />
       </div>
     </section>
