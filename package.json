@@ -17,6 +17,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-switch": "^5.0.1",
+    "reactstrap": "^8.9.0",
     "typescript": "~3.7.2"
   },
   "author": {

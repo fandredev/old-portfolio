@@ -1,58 +1,56 @@
 @charset 'utf-8';
-@import '../../globals/Variables.scss';
-@import '../../globals/Mixins.scss';
-
+@import "../../globals/Variables.scss";
+@import "../../globals/Mixins.scss";
 
 aside {
   padding: 0 3rem;
 
-   @media (min-width: $mobile-lg) {
-     padding: 0 6rem;
-   }
-   @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
-     padding: 0 2rem;
-   }
-   @media (min-width: 800px) and (max-width: 1000px){
+  @media (min-width: $mobile-lg) {
     padding: 0 6rem;
-   }
-   @media (min-width: 1001px) {
-     padding: 0 1rem;
-   }
+  }
+  @media (min-width: $tablet-sm) and (max-width: $tablet-md) {
+    padding: 0 2rem;
+  }
+  @media (min-width: 800px) and (max-width: 1000px) {
+    padding: 0 6rem;
+  }
+  @media (min-width: 1001px) {
+    padding: 0 1rem;
+  }
   > a {
     text-decoration: none;
     > div[id="card"] {
-    background: $primary;
-    @include fullCenter;
-    flex-flow: column;
-    height: 50vh;
-    width: 100%;
-    padding: 1rem 2rem;
-    margin-bottom:2rem;
-    font-family: $secondary-font;
-    text-align: center;
-    color: #fff;
-    border-radius: 20px;
-    transition: height 0.5s ease;
+      background: $primary;
+      @include fullCenter;
+      flex-flow: column;
+      height: 50vh;
+      width: 100%;
+      padding: 1rem 2rem;
+      margin-bottom: 2rem;
+      font-family: $secondary-font;
+      text-align: center;
+      color: #fff;
+      border-radius: 20px;
+      transition: height 0.3s linear;
 
-
-     &:hover {
-      height: 40vh;
-      box-shadow: $box-shadow;
-    }
-    > figure {
-      margin-top: 2rem;
-      > img {
-        width: 100%;
+      &:hover {
+        height: 44vh;
+        box-shadow: $box-shadow;
+      }
+      > figure {
+        margin-top: 2rem;
+        > img {
+          width: 100%;
+        }
+      }
+      > h3 {
+        color: #212426;
+        line-height: 3rem;
+      }
+      > span {
+        color: #fff;
+        line-height: 2.6rem;
       }
     }
-    > h3 {
-      color: #212426;
-      line-height: 3rem;
-    }
-    > span {
-      color: #fff;
-      line-height: 2.6rem;
-    }
-  }
   }
 }

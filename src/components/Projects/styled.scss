@@ -1,27 +1,36 @@
 @charset 'utf-8';
-@import '../../globals/Variables.scss';
-@import '../../globals/Mixins.scss';
+@import "../../globals/Variables.scss";
+@import "../../globals/Mixins.scss";
 
 section {
   h2 {
-   @include titlePadronization;
+    @include titlePadronization;
 
-   > img {
-     width: 10vw;
-    @media (min-width: 1001px) {
-       width: 6vw;
+    > img {
+      width: 10vw;
+      @media (min-width: 1001px) {
+        width: 6vw;
+      }
     }
-   }
-
   }
-   > div[id="card-projects"] {
-     @media (min-width: $tablet-md) and (max-width: $computer){
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-     }
+  > aside[id="container-buttons"] {
+    display: flex;
+    padding: 0 7rem;
+    justify-content: center;
+
+    @media (max-width: $tablet-md) {
+      padding: 0;
+    }
+  }
+
+  > div[id="card-projects"] {
+    @media (min-width: $tablet-md) and (max-width: $computer) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
     @media (min-width: 1001px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
-   }
+  }
 }
