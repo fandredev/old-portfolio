@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
-
-import "./styled.scss";
-import rocket from "../../assets/images/icons/rocket.png";
 import { LandingContext } from "../../contexts/LandingContext";
 import MenuBurger from "../MenuBurger";
+import Rocket from "../Rocket";
 import ListItems from "./ListItems";
+import "./styled.scss";
 
 export default function Header(): JSX.Element {
   const landingContext = useContext(LandingContext);
@@ -15,9 +14,7 @@ export default function Header(): JSX.Element {
       {width < 600 ? (
         <>
           <MenuBurger />
-          <figure>
-            <img src={rocket} alt="Foguete ilustativo" />
-          </figure>
+          <Rocket />
         </>
       ) : (
         <ListItems />
