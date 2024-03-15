@@ -24,7 +24,7 @@ Typescript e Sass.
 
 ### Deploy
 
-A aplicação poderá ser acessada aqui: [https://portfolio.flubygit.vercel.app/](https://portfolio-47i7vml8i-flubygit.vercel.app/)
+A aplicação poderá ser acessada aqui: [https://portfolio-47i7vml8i-flubygit.vercel.app/](https://portfolio-47i7vml8i-flubygit.vercel.app/)
 
 ### Web Preview
 
