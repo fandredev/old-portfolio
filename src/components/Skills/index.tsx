@@ -1,9 +1,9 @@
 import React from "react";
 import { BsBootstrap } from "react-icons/bs";
-import { DiCss3Full, DiJavascript1 } from "react-icons/di";
+import { DiCss3Full } from "react-icons/di";
 import { FaDocker, FaGithub, FaNode, FaReact, FaSass } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
-import { SiAngular, SiTypescript } from "react-icons/si";
+import { SiAngular, SiNextDotJs, SiTypescript } from "react-icons/si";
 import atom from "../../assets/images/icons/atom.png";
 import paperPlane from "../../assets/images/icons/plane.png";
 import Card from "../../components/Card";
@@ -17,9 +17,8 @@ export default function Skills(): JSX.Element {
     HTML5,
     Sass,
     CSS3,
-    Javascript,
     Typescript,
-    ReactJS,
+    NextJS,
     ReactNative,
     NodeJS,
     Docker,
@@ -31,10 +30,9 @@ export default function Skills(): JSX.Element {
     CSS3Desc,
     SASSDesc,
     BootstrapDesc,
-    JavascriptDesc,
     TypescriptDesc,
     NodeJSDesc,
-    ReactJSDesc,
+    NextJSDesc,
     ReactNativeDesc,
     GitDesc,
     DockerDesc,
@@ -61,17 +59,14 @@ export default function Skills(): JSX.Element {
         <Card url="" title={Bootstrap} description={BootstrapDesc}>
           <BsBootstrap size={25} />
         </Card>
-        <Card url="" title={Javascript} description={JavascriptDesc}>
-          <DiJavascript1 size={25} />
-        </Card>
         <Card url="" title={Typescript} description={TypescriptDesc}>
           <SiTypescript size={25} />
         </Card>
         <Card url="" title={NodeJS} description={NodeJSDesc}>
           <FaNode size={25} />
         </Card>
-        <Card url="" title={ReactJS} description={ReactJSDesc}>
-          <FaReact size={25} />
+        <Card url="" title={NextJS} description={NextJSDesc}>
+          <SiNextDotJs size={25} />
         </Card>
         <Card url="" title={ReactNative} description={ReactNativeDesc}>
           <FaReact size={25} />
@@ -79,8 +74,7 @@ export default function Skills(): JSX.Element {
         <Card
           url=""
           title={Angular}
-          description="Utilizo diariamente para SPAs,
-          ótima tecnogia com suporte nativo a typescript. RxJS é o conceito de programação reativa muito presente no framework."
+          description="Utilizei em projetos e empresas anteriores. Utilizava angular 9 e as versões mais recentes do angular não consegui ver ainda como estão. Pretendo fazer um projetinho recente para ver como ainda estão as coisas no Angular, mas, já tive experiência anteriormente de 3 anos de uso"
         >
           <SiAngular size={25} color="#fff" />
         </Card>

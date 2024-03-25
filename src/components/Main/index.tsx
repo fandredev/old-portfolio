@@ -7,14 +7,17 @@ export default function Main(): JSX.Element {
   return (
     <main>
       <section>
-        <span>Heyy !!</span>
+        <span>Olá !!</span>
         <h1>
           Eu sou o <span>Felipe André :)</span>
         </h1>
-        <span>Web Developer Júnior</span>
+        <span>Typescript & Python Developer</span>
       </section>
       <figure>
-        <img src={boyDeveloper} alt="" />
+        <img
+          src={boyDeveloper}
+          alt="Imagem de um menino digitando no computador"
+        />
       </figure>
       <div>
         <button type="button">
