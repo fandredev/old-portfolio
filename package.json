@@ -57,6 +57,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/react-burger-menu": "^2.6.1",
     "@types/react-icons": "^3.0.0",
     "@types/react-router-dom": "^5.1.5",
