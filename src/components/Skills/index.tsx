@@ -3,7 +3,12 @@ import { BsBootstrap } from "react-icons/bs";
 import { DiCss3Full } from "react-icons/di";
 import { FaDocker, FaGithub, FaNode, FaReact, FaSass } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
-import { SiAngular, SiNextDotJs, SiTypescript } from "react-icons/si";
+import {
+  SiAngular,
+  SiNextDotJs,
+  SiStorybook,
+  SiTypescript,
+} from "react-icons/si";
 import atom from "../../assets/images/icons/atom.png";
 import paperPlane from "../../assets/images/icons/plane.png";
 import Card from "../../components/Card";
@@ -24,6 +29,8 @@ export default function Skills(): JSX.Element {
     Docker,
     GitGitHub,
     Angular,
+    StoryBook,
+    Jest,
   } = Techs;
   const {
     HTML5Desc,
@@ -34,8 +41,10 @@ export default function Skills(): JSX.Element {
     NodeJSDesc,
     NextJSDesc,
     ReactNativeDesc,
+    StoryBookDesc,
     GitDesc,
     DockerDesc,
+    JestDesc,
   } = DescTechs;
   return (
     <>
@@ -71,6 +80,15 @@ export default function Skills(): JSX.Element {
         <Card url="" title={ReactNative} description={ReactNativeDesc}>
           <FaReact size={25} />
         </Card>
+
+        <Card url="" title={StoryBook} description={StoryBookDesc}>
+          <SiStorybook size={25} />
+        </Card>
+
+        <Card url="" title={Jest} description={JestDesc}>
+          <SiStorybook size={25} />
+        </Card>
+
         <Card
           url=""
           title={Angular}
