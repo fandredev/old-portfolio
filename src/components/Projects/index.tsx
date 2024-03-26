@@ -16,7 +16,7 @@ export default function Projects(): JSX.Element {
 
   return (
     <section id="projects">
-      <h2>
+      <h2 className="text-6xl my-11">
         Projetos <img src={mouse} alt="Imagem ilustrativa de um mouse" />
       </h2>
 

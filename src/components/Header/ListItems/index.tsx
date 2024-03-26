@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import "./styled.scss";
 import { FiMoon } from "react-icons/fi";
 import { WiSolarEclipse } from "react-icons/wi";
 import Switch from "react-switch";
+import "./styled.scss";
 
 import rocket from "../../../assets/images/icons/rocket.png";
 import { DarkModeContext } from "../../../contexts/DarkModeContext";
@@ -17,7 +17,7 @@ export default function ListItems(): JSX.Element {
 
   return (
     <>
-      <ol>
+      <ol className="flex justify-center items-center gap-4 font-secondary text-3xl text-white">
         <li>
           <figure id="rocket">
             <img src={rocket} alt="Foguete ilustativo" />

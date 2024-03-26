@@ -7,7 +7,7 @@ export default function Main(): JSX.Element {
   return (
     <main>
       <section>
-        <span>Olá !!</span>
+        <span className="text-6xl">Olá !!</span>
         <h1>
           Eu sou o <span>Felipe André :)</span>
         </h1>
@@ -22,7 +22,7 @@ export default function Main(): JSX.Element {
       <div>
         <button type="button">
           <a
-            href="https://github.com/flubyGit"
+            href="https://github.com/fandredev"
             target="_blank"
             rel="noopener noreferrer"
           >

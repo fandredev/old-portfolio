@@ -9,7 +9,9 @@ export default function Study(): JSX.Element {
   const { PythonDjangoDesc, TailwindCSSDesc } = DescTechs;
   return (
     <>
-      <h2 id="skills">O que estou estudando?</h2>
+      <h2 className="text-6xl my-11" id="skills">
+        O que estou estudando?
+      </h2>
       <div id="study">
         <Card title={TailwindCSS} description={TailwindCSSDesc}>
           <SiTailwindcss size={25} />

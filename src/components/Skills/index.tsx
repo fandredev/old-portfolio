@@ -48,7 +48,7 @@ export default function Skills(): JSX.Element {
   } = DescTechs;
   return (
     <>
-      <h2 id="skills">
+      <h2 className="text-6xl" id="skills">
         Hard Skills{" "}
         <img
           src={paperPlane}
@@ -98,7 +98,7 @@ export default function Skills(): JSX.Element {
         </Card>
       </div>
       <Study />
-      <h2>
+      <h2 className="text-6xl my-11">
         DevOps <img src={atom} alt="Imagem de um atómo" />
       </h2>
       <section id="devops">

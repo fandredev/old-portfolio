@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./pages/Landing";
-import LandingProvider from "./contexts/LandingContext";
 import DarkModeProvider from "./contexts/DarkModeContext";
+import LandingProvider from "./contexts/LandingContext";
 import "./globals/Reset.scss";
+import App from "./pages/Landing";
+
+import "./styles.css";
 
 ReactDOM.render(
   <React.StrictMode>

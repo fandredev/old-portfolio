@@ -13,7 +13,7 @@ export default function IntroduceMy(): JSX.Element {
         <figure>
           <img src={developer} alt="" />
         </figure>
-        <h2>Contato</h2>
+        <h2 className="text-6xl">Contato</h2>
         <section id="contact">
           <Card
             title="E-mail"
@@ -45,7 +45,9 @@ export default function IntroduceMy(): JSX.Element {
           </Card>
         </section>
       </div>
-      <h2 id="who_my">Introdução</h2>
+      <h2 id="who_my" className="text-5xl">
+        Introdução
+      </h2>
       <section id="introduce">
         <i>
           <img src={myPhoto} alt="Felipe André" />

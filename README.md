@@ -18,7 +18,7 @@
 
 ## :bulb: Sobre
 Meu portifólio pessoal na versão Alpha com ReactJS,
-Typescript e Sass.
+Typescript, Sass e TailwindCSS.
 
 ## :iphone: Demo
 
