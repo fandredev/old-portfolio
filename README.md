@@ -24,7 +24,7 @@ Typescript e Sass.
 
 ### Deploy
 
-A aplicação poderá ser acessada aqui: [https://portfolio-47i7vml8i-flubygit.vercel.app/](https://portfolio-47i7vml8i-flubygit.vercel.app/)
+A aplicação poderá ser acessada aqui: [https://portfolio-git-master-fdevandre.vercel.app/](https://portfolio-git-master-fdevandre.vercel.app/)
 
 ### Web Preview
 
@@ -50,15 +50,15 @@ git@github.com:flubyGit/portfolio.git
 2. Abra o projeto no seu editor de texto
 3. No seu terminal, instale os pacotes necessários
 ```sh
-npm i ou yarn install
+npm i --force
 ```
 4. Agora você pode iniciar o server
 ```sh
-npm run dev ou yarn run dev
+npm run dev
 ```
 5. Tudo ok! Abra a página no navegador com o seguinte endereço: http://localhost:3000
 
 ## :mailbox_with_no_mail: Contatos
-E-mail: profissioanalf.andre@gmail.com<br>
+E-mail: profissionalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
-Discord: ...this
+
