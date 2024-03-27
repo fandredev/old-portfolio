@@ -1,4 +1,4 @@
-name: Jest tests
+name: Run tests
 on:
   push:
     branches:
@@ -33,7 +33,7 @@ jobs:
           key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --force
 
       - name: Run Tests
         run: npm run test
