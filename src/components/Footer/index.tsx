@@ -11,7 +11,7 @@ export default function Footer(): JSX.Element {
       <SocialMedia />
       <aside className="leading-9 md:px-2">
         <p>
-          Página feita com ReactJS, <span>Typescript</span>,{" "}
+          Página feita com React, <span>Typescript</span>,{" "}
           <span>
             <abbr
               className="no-underline"
@@ -20,7 +20,7 @@ export default function Footer(): JSX.Element {
               Sass
             </abbr>
           </span>{" "}
-          e TaildwindCSS.
+          e TailwindCSS.
         </p>
         <span> {date} &mdash; Felipe André</span>
       </aside>
