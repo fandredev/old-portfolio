@@ -49,6 +49,7 @@ A aplicação poderá ser acessada aqui: [https://portfolio-git-master-fdevandre
 - Husky + Link Staged
 - Github Actions
 - Vercel
+- Git/Github
 
 ### :wrench: Como Utilizar
 
