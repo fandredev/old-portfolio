@@ -9,7 +9,7 @@ describe("Footer", () => {
     const footerElement = screen.getByRole("contentinfo");
     expect(footerElement).toBeInTheDocument();
 
-    const textElement = screen.getByText(/Página feita com ReactJS/i);
+    const textElement = screen.getByText(/Página feita com React/i);
     expect(textElement).toBeInTheDocument();
 
     const dateElement = screen.getByText(/Felipe André/i);
