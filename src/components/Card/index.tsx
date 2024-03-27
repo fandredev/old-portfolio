@@ -11,8 +11,11 @@ export default function Card({
   return (
     <aside>
       <a href={url} target="_blank" rel="noopener noreferrer">
-        <div id="card">
-          <figure>{children}</figure>
+        <div
+          className="flex items-center justify-center flex-col text-center my-8 rounded-3xl font-secondary"
+          id="card"
+        >
+          <figure className="mt-2">{children}</figure>
           <h3>{title}</h3>
           <span>{description}</span>
         </div>

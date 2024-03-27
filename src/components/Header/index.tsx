@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { LandingContext } from "../../contexts/LandingContext";
 import MenuBurger from "../MenuBurger";
-import Rocket from "../Rocket";
 import ListItems from "./ListItems";
 import "./styled.scss";
 
@@ -14,7 +13,6 @@ export default function Header(): JSX.Element {
       {width < 600 ? (
         <>
           <MenuBurger />
-          <Rocket />
         </>
       ) : (
         <ListItems />

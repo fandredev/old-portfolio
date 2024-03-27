@@ -8,47 +8,38 @@ aside {
   @media (min-width: $mobile-lg) {
     padding: 0 6rem;
   }
+
   @media (min-width: $tablet-sm) and (max-width: $tablet-md) {
     padding: 0 2rem;
   }
+
   @media (min-width: 800px) and (max-width: 1000px) {
     padding: 0 6rem;
   }
+
   @media (min-width: 1001px) {
     padding: 0 1rem;
   }
-  > a {
+
+  >a {
     text-decoration: none;
-    > div[id="card"] {
+
+    >div[id="card"] {
       background: $primary;
-      @include fullCenter;
-      flex-flow: column;
       height: 50vh;
       width: 100%;
       padding: 1rem 2rem;
-      margin-bottom: 2rem;
-      font-family: $secondary-font;
-      text-align: center;
-      color: #fff;
-      border-radius: 20px;
-      transition: height 0.3s linear;
 
-      &:hover {
-        height: 44vh;
-        box-shadow: $box-shadow;
+      img {
+        width: 100%;
       }
-      > figure {
-        margin-top: 2rem;
-        > img {
-          width: 100%;
-        }
-      }
-      > h3 {
+
+      >h3 {
         color: #212426;
         line-height: 3rem;
       }
-      > span {
-        color: #fff;
+
+      >span {
         line-height: 2.6rem;
       }
     }

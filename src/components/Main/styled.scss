@@ -93,7 +93,7 @@ main {
       border: 3px solid transparent;
       font-family: $default-font;
       font-weight: 600;
-      background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+      background: linear-gradient(90deg, #4458dc 0%, #854fee 100%) !important;
       color: #fff;
       margin: 3rem 0;
       border-radius: 10px;

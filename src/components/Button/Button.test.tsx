@@ -11,7 +11,9 @@ describe("ButtonApplication", () => {
   });
 
   it("renders correctly", () => {
-    const button: HTMLButtonElement = screen.getByTestId("button-application");
+    const button = screen.getByTestId(
+      "button-application"
+    ) as HTMLButtonElement;
     const textButton = screen.getByText(title);
     expect(textButton.textContent).toBe(title);
     expect(button.textContent).toContain(title);
