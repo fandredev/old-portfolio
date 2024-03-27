@@ -17,7 +17,7 @@ export default function Card({
         >
           <figure className="mt-2">{children}</figure>
           <h3>{title}</h3>
-          <span>{description}</span>
+          <span className="text-white">{description}</span>
         </div>
       </a>
     </aside>
