@@ -50,6 +50,7 @@ A aplicação poderá ser acessada aqui: [https://portfolio-git-master-fdevandre
 - Github Actions
 - Vercel
 - Git/Github
+- Webpack
 
 ### :wrench: Como Utilizar
 
