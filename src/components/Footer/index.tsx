@@ -12,7 +12,7 @@ export default function Footer(): JSX.Element {
       <aside className="leading-9 md:px-2">
         <p>
           Página feita com ReactJS, <span>Typescript</span>,{" "}
-          <span id="sass">
+          <span>
             <abbr
               className="no-underline"
               title="Syntactically Awesome Style Sheets"

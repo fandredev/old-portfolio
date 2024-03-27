@@ -2,7 +2,6 @@
 
 # Portfólio - Felipe André
 
-
 ## :checkered_flag: Índice
 
 - [Portfólio - Felipe André](#portfólio---felipe-andré)
@@ -17,6 +16,7 @@
   - [:mailbox_with_no_mail: Contatos](#mailbox_with_no_mail-contatos)
 
 ## :bulb: Sobre
+
 Meu portifólio pessoal na versão Alpha com ReactJS,
 Typescript, Sass e TailwindCSS.
 
@@ -32,33 +32,48 @@ A aplicação poderá ser acessada aqui: [https://portfolio-git-master-fdevandre
 ![start](https://user-images.githubusercontent.com/49297012/93129209-0742a180-f6a7-11ea-9182-b206a8c99eed.png)
 
 ### Mobile Preview
+
 ![mobile](https://user-images.githubusercontent.com/49297012/93129752-ea5a9e00-f6a7-11ea-8bd9-04479a7df437.png)
 ![whiteMode](https://user-images.githubusercontent.com/49297012/93130090-66ed7c80-f6a8-11ea-955d-40443e725cd4.png)
 
-
 ### :computer: Tecnologias:
-- React.JS
+
+- ReactJS com CRA
 - Typescript
-- Sass
+- Sass & TailwindCSS
+
+### :computer: Ferramentas:
+
+- Jest
+- Eslint
+- Husky + Link Staged
+- Github Actions
+- Vercel
 
 ### :wrench: Como Utilizar
 
 1. Clone esse repositório:
+
 ```sh
 git@github.com:flubyGit/portfolio.git
 ```
+
 2. Abra o projeto no seu editor de texto
 3. No seu terminal, instale os pacotes necessários
+
 ```sh
 npm i --force
 ```
+
 4. Agora você pode iniciar o server
+
 ```sh
 npm run dev
 ```
+
 5. Tudo ok! Abra a página no navegador com o seguinte endereço: http://localhost:3000
 
 ## :mailbox_with_no_mail: Contatos
+
 E-mail: profissionalf.andre@gmail.com<br>
 Linkedin: https://www.linkedin.com/in/devfandre/<br>
-
