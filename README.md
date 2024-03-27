@@ -64,7 +64,7 @@ git@github.com:flubyGit/portfolio.git
 3. No seu terminal, instale os pacotes necessários
 
 ```sh
-npm i --force
+cd portfolio && npm i --force
 ```
 
 4. Agora você pode iniciar o server
