@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import mouse from "../../assets/images/icons/mouse.png";
-import ButtonApplication from "../Button";
+import ButtonApplication from "../Button/Button";
 import MobileProjects from "../MobileProjects";
 import WebProjects from "../WebProjects";
 import "./styled.scss";
