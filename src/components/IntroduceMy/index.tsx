@@ -2,13 +2,13 @@ import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import developer from "../../assets/images/developer.png";
-import myPhoto from "../../assets/images/icons/myPhoto.jpeg";
+import myPhoto from "../../assets/images/me.jpeg";
 import Card from "../Card";
 import "./styled.scss";
 
 export default function IntroduceMy(): JSX.Element {
   return (
-    <section id="contact">
+    <section id="contact" className="text-center font-primary">
       <div>
         <figure>
           <img src={developer} alt="" />
@@ -45,14 +45,14 @@ export default function IntroduceMy(): JSX.Element {
           </Card>
         </section>
       </div>
-      <h2 id="who_my" className="text-5xl">
+      <h2 id="who_my" className="text-5xl my-10">
         Introdução
       </h2>
       <section id="introduce">
         <i>
           <img src={myPhoto} alt="Felipe André" />
         </i>
-        <article>
+        <article className="text-justify py-8 font-tertiary">
           &quot;Meu nome é Felipe André e tenho 23 anos e moro na região oeste
           de São Paulo. Sou estudante de tecnologia desde os 17 anos e sou grato
           pelo progresso que venho aprendendo com a{" "}
