@@ -61,7 +61,7 @@ export default function IntroduceMy(): JSX.Element {
           independentemente de front-end e back-end e já tive experiências com
           Python usando Django Framework. Atualmente, sou um desenvolvedor
           buscando uma nova oportunidade no mercado e trabalho como freelancer
-          num proprio parecido com o Pipefy usando tecnologias como NextJS,
+          num projeto parecido com o Pipefy usando tecnologias como NextJS,
           TailwindCSS, Prisma e MongoDB. Amo futebol, sair com amigos e
           conversar sobre astronomia!&quot;
         </article>
