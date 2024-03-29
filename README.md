@@ -24,7 +24,7 @@ Typescript, Sass e TailwindCSS.
 
 ### Deploy
 
-A aplicação poderá ser acessada aqui: [https://portfolio-git-master-fdevandre.vercel.app/](https://portfolio-git-master-fdevandre.vercel.app/)
+A aplicação poderá ser acessada aqui: [https://portfoliofelipe-andre-projects.vercel.app/](https://portfoliofelipe-andre-projects.vercel.app/)
 
 ### Web Preview
 
