@@ -29,7 +29,7 @@ export enum DescTechs {
   ReactNativeDesc = "Tive algumas experiências com React Native a um tempo, mas, não é algo que mais estou vendo hoje em dia. Mas, adorei usá-lo por um tempo juntamente com o Expo no meu celular e Android Studio",
   GitDesc = "Utilizo diariamente para networking, pes quisa de bibliotecas, armazenamento de projetos pessoais e etc. Também tenho conhecimento de workflows para CI/CD usando Github Actions.",
   DockerDesc = "Tive noções básicas anteriormente, mas, não é algo que estou utilizando atualmente. Mas, é uma tecnologia incrível e que gostaria muito de voltar a estudar.",
-  PythonDjangoDesc = "Trabalhei anteriormente por 3 anos usando Django e Python. Foi uma experiência incrível e que me fez crescer muito como programador. Atualmente mantenho meus estudos para conseguir trabalhar melhor com Python.",
+  PythonDjangoDesc = "Trabalhei anteriormente por 3 anos usando Django e Python. Foi uma experiência incrível e que me fez crescer muito como programador. Atualmente mantenho meus estudos para continuar trabalhando melhor com Python.",
   TailwindCSSDesc = "Estou estudando atualmente e gostando muito. No começo achei que não iria gostar por parecer CSS inline, porém, agora estou gostando pela rapidez de criar CSS e customizar com o que gostaria pro meu projeto/design.",
   JestDesc = "Testar é algo muito importante e o Jest é uma ferramenta incrível para isso. Uso em conjunto com NextJS e também já utilizei no Angular (apesar de Jasmine e Karma ser o padrão)",
 }

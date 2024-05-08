@@ -53,17 +53,13 @@ export default function IntroduceMy(): JSX.Element {
           <img src={myPhoto} alt="Felipe André" />
         </i>
         <article className="text-justify py-8 font-tertiary">
-          &quot;Meu nome é Felipe André e tenho 23 anos e moro na região oeste
+          &quot;Meu nome é Felipe André e tenho 22 anos e moro na região oeste
           de São Paulo. Sou estudante de tecnologia desde os 17 anos e sou grato
-          pelo progresso que venho aprendendo com a{" "}
-          <abbr title="World Wide Web">web</abbr> e com esse mundo vasto de ser
-          uma pessoa programadora. Adoro tecnologias usando Typescript
-          independentemente de front-end e back-end e já tive experiências com
-          Python usando Django Framework. Atualmente, sou um desenvolvedor
-          buscando uma nova oportunidade no mercado e trabalho como freelancer
-          num projeto parecido com o Pipefy usando tecnologias como NextJS,
-          TailwindCSS, Prisma e MongoDB. Amo futebol, sair com amigos e podcasts
-          sobre fisica e astronomia.&quot;
+          pelo progresso que venho aprendendo com a
+          <abbr title="World Wide Web"> web</abbr> e com esse mundo vasto de ser
+          uma pessoa programadora. Adoro tecnologias usando Typescript e Python
+          e alguns frameworks como Next e Django. Amo futebol, sair com amigos e
+          podcasts sobre astronomia e geopolitica. &quot;
         </article>
       </section>
     </section>

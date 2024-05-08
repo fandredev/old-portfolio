@@ -6,10 +6,6 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
     "autoprefixer": "^10.4.19",
     "postcss-cli": "^11.0.0",
     "react": "^16.13.1",
@@ -20,8 +16,7 @@
     "react-scripts": "^5.0.1",
     "react-switch": "^5.0.1",
     "reactstrap": "^8.9.0",
-    "sass": "^1.72.0",
-    "typescript": "4.4.3"
+    "sass": "^1.72.0"
   },
   "author": {
     "email": "profissionalf.andre@gmail.com",
@@ -41,7 +36,9 @@
     "build": "react-scripts build",
     "rebuild": "webpack",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -60,13 +57,29 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@chromatic-com/storybook": "^1.2.26",
+    "@storybook/addon-a11y": "^8.0.5",
+    "@storybook/addon-essentials": "^8.0.5",
+    "@storybook/addon-interactions": "^8.0.5",
+    "@storybook/addon-links": "^8.0.5",
+    "@storybook/addon-onboarding": "^8.0.5",
+    "@storybook/addon-themes": "^8.0.5",
+    "@storybook/blocks": "^8.0.5",
+    "@storybook/preset-create-react-app": "^8.0.5",
+    "@storybook/react": "^8.0.5",
+    "@storybook/react-webpack5": "^8.0.5",
+    "@storybook/test": "^8.0.5",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
     "@types/react-burger-menu": "^2.6.1",
+    "@types/react-dom": "^16.9.0",
     "@types/react-icons": "^3.0.0",
     "@types/react-router-dom": "^5.1.5",
     "@typescript-eslint/eslint-plugin": "^4.1.0",
     "@typescript-eslint/parser": "^4.1.0",
     "commitizen": "^4.2.1",
-    "css-loader": "^6.10.0",
+    "css-loader": "^6.5.1",
     "eslint": "^7.25.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
@@ -75,17 +88,21 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-storybook": "^0.8.0",
     "file-loader": "^6.1.0",
     "html-webpack-plugin": "^4.4.1",
     "husky": "^4.3.0",
     "jest": "^27.5.1",
     "lint-staged": "^10.3.0",
     "prettier": "^2.1.1",
-    "style-loader": "^1.2.1",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.0.5",
+    "style-loader": "3.3.4",
     "tailwindcss": "^3.4.1",
     "ts-loader": "^8.0.3",
-    "webpack": "4.42.0",
-    "webpack-cli": "^3.3.12"
+    "typescript": "4.4.3",
+    "webpack": "5.91.0",
+    "webpack-cli": "5.1.4"
   },
   "husky": {
     "hooks": {
