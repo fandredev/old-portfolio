@@ -6,20 +6,20 @@ export default function Card({
   title,
   description,
   children,
-  url,
+  url = "",
 }: CardProps): JSX.Element {
   return (
     <aside>
-      <a href={url} target="_blank" rel="noopener noreferrer">
+      <section>
         <div
-          className="flex items-center justify-center flex-col text-center my-8 rounded-3xl font-secondary"
+          className="flex items-center justify-center flex-col text-center my-8 rounded-3xl font-secondary gap-4"
           id="card"
         >
           <figure className="mt-2">{children}</figure>
-          <h3>{title}</h3>
-          <span className="text-white">{description}</span>
+          <h2 className="text-4xl leading-10">{title}</h2>
+          <span className="text-white text-2xl leading-10">{description}</span>
         </div>
-      </a>
+      </section>
     </aside>
   );
 }

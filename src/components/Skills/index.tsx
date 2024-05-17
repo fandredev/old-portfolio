@@ -8,6 +8,8 @@ import {
   SiNextDotJs,
   SiStorybook,
   SiTypescript,
+  SiPython,
+  SiTailwindcss,
 } from "react-icons/si";
 import atom from "../../assets/images/icons/atom.png";
 import paperPlane from "../../assets/images/icons/plane.png";
@@ -31,6 +33,7 @@ export default function Skills(): JSX.Element {
     Angular,
     StoryBook,
     Jest,
+    PythonDjango,
   } = Techs;
   const {
     HTML5Desc,
@@ -45,6 +48,7 @@ export default function Skills(): JSX.Element {
     GitDesc,
     DockerDesc,
     JestDesc,
+    PythonDjangoDesc,
   } = DescTechs;
   return (
     <>
@@ -56,36 +60,36 @@ export default function Skills(): JSX.Element {
         />
       </h2>
       <div id="cards">
-        <Card url="" title={HTML5} description={HTML5Desc}>
+        <Card title={HTML5} description={HTML5Desc}>
           <ImHtmlFive size={25} color="#fff" />
         </Card>
-        <Card url="" title={CSS3} description={CSS3Desc}>
+        <Card title={CSS3} description={CSS3Desc}>
           <DiCss3Full size={25} />
         </Card>
-        <Card url="" title={Sass} description={SASSDesc}>
+        <Card title={Sass} description={SASSDesc}>
           <FaSass size={25} />
         </Card>
-        <Card url="" title={Bootstrap} description={BootstrapDesc}>
+        <Card title={Bootstrap} description={BootstrapDesc}>
           <BsBootstrap size={25} />
         </Card>
-        <Card url="" title={Typescript} description={TypescriptDesc}>
+        <Card title={Typescript} description={TypescriptDesc}>
           <SiTypescript size={25} />
         </Card>
-        <Card url="" title={NodeJS} description={NodeJSDesc}>
+        <Card title={NodeJS} description={NodeJSDesc}>
           <FaNode size={25} />
         </Card>
-        <Card url="" title={NextJS} description={NextJSDesc}>
+        <Card title={NextJS} description={NextJSDesc}>
           <SiNextDotJs size={25} />
         </Card>
-        <Card url="" title={ReactNative} description={ReactNativeDesc}>
+        <Card title={ReactNative} description={ReactNativeDesc}>
           <FaReact size={25} />
         </Card>
 
-        <Card url="" title={StoryBook} description={StoryBookDesc}>
+        <Card title={StoryBook} description={StoryBookDesc}>
           <SiStorybook size={25} />
         </Card>
 
-        <Card url="" title={Jest} description={JestDesc}>
+        <Card title={Jest} description={JestDesc}>
           <SiStorybook size={25} />
         </Card>
 
@@ -95,6 +99,9 @@ export default function Skills(): JSX.Element {
           description="Utilizei em projetos e empresas anteriores. Utilizava angular 9 e as versões mais recentes do angular não consegui ver ainda como estão. Pretendo fazer um projetinho recente para ver como ainda estão as coisas no Angular, mas, já tive experiência anteriormente de 3 anos de uso"
         >
           <SiAngular size={25} color="#fff" />
+        </Card>
+        <Card title={PythonDjango} description={PythonDjangoDesc}>
+          <SiPython size={25} />
         </Card>
       </div>
       <Study />

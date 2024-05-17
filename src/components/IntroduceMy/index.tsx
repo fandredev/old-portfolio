@@ -20,28 +20,28 @@ export default function IntroduceMy(): JSX.Element {
             description="profissionalf.andre@gmail.com"
             url="mailto:profissionalf.andre@gmail.com?subject=Olá Felipe... >"
           >
-            <AiOutlineMail size={25} />
+            <AiOutlineMail size={28} />
           </Card>
           <Card
             title="Whatsapp"
             description="(11) 973813705"
             url="http://wa.me/5511973813705?Olá Felipe..."
           >
-            <FaWhatsapp size={25} />
+            <FaWhatsapp size={28} />
           </Card>
           <Card
             title="Linkedin"
             description="www.linkedin.com/in/devfandre/"
             url="https://www.linkedin.com/in/devfandre/"
           >
-            <FaLinkedin size={25} />
+            <FaLinkedin size={28} />
           </Card>
           <Card
             title="Github"
             description="https://github.com/flubyGit"
             url="https://github.com/flubyGit"
           >
-            <FaGithub size={25} />
+            <FaGithub size={28} />
           </Card>
         </section>
       </div>
@@ -57,9 +57,11 @@ export default function IntroduceMy(): JSX.Element {
           de São Paulo. Sou estudante de tecnologia desde os 17 anos e sou grato
           pelo progresso que venho aprendendo com a
           <abbr title="World Wide Web"> web</abbr> e com esse mundo vasto de ser
-          uma pessoa programadora. Adoro tecnologias usando Typescript e Python
-          e alguns frameworks como Next e Django. Amo futebol, sair com amigos e
-          podcasts sobre astronomia e geopolitica. &quot;
+          uma pessoa programadora. Atualmente estou trabalhando como CLT em uma
+          startup de gestão de contratos usando tecnologias como Python/Django e
+          Typescript, HTML e CSS para prototipar front-end. Moro na região Oeste
+          de São Paulo e amo futebol, sair com amigos e podcasts sobre
+          astronomia e geopolitica. &quot;
         </article>
       </section>
     </section>
