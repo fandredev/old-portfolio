@@ -82,7 +82,7 @@ export default function Skills(): JSX.Element {
         <Card
           url=""
           title={Angular}
-          description="Utilizei em projetos e empresas anteriores. Utilizava angular 9 e as versões mais recentes do angular não consegui ver ainda como estão. Pretendo fazer um projetinho recente para ver como ainda estão as coisas no Angular, mas, já tive experiência anteriormente de 3 anos de uso"
+          description="Utilizei em projetos e empresas anteriores. Utilizava angular 9 e as versões mais recentes do angular não consegui ver ainda como estão."
         >
           <SiAngular size={25} color="#fff" />
         </Card>
@@ -98,7 +98,7 @@ export default function Skills(): JSX.Element {
         </Card>
 
         <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
-          <h3>Outras ferramentas: </h3>
+          <h3>Outras ferramentas no meu dia a dia: </h3>
           <li className="flex items-center space-x-3 rtl:space-x-reverse">
             <svg
               className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
@@ -151,7 +151,7 @@ export default function Skills(): JSX.Element {
                 d="M1 5.917 5.724 10.5 15 1.5"
               />
             </svg>
-            <span>pnpm, npm, pip, pipx</span>
+            <span>pnpm, npm, pip, pipx, poetry</span>
           </li>
           <li className="flex items-center space-x-3 rtl:space-x-reverse">
             <svg
@@ -170,6 +170,103 @@ export default function Skills(): JSX.Element {
               />
             </svg>
             <span>VSCode, Webstorm, Pycharm</span>
+          </li>
+        </ul>
+
+        <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
+          <h3>Estudando: </h3>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>Docker, docker-compose & Kubernetes</span>
+          </li>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>
+              Inglês basico/intermediário, vocabulário, pronuncia e escrita
+            </span>
+          </li>
+        </ul>
+
+        <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
+          <h3>Conteúdos: </h3>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/@thistate"
+              rel="noreferrer"
+              className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            >
+              Meu canal no Youtube sobre Redes, Django & Python (atualizado
+              sempre que tiver tempo)
+            </a>
+          </li>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <a
+              target="_blank"
+              href="https://medium.com/@thistate"
+              rel="noreferrer"
+              className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
+            >
+              Blog
+            </a>
           </li>
         </ul>
       </div>

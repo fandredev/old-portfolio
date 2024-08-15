@@ -11,7 +11,7 @@ export default function IntroduceMy(): JSX.Element {
     <section id="contact" className="text-center font-primary">
       <div>
         <figure>
-          <img src={developer} alt="" />
+          <img className="w-7/12" src={developer} alt="" />
         </figure>
         <h2 className="text-6xl">Contato</h2>
         <section id="contact">
@@ -50,7 +50,7 @@ export default function IntroduceMy(): JSX.Element {
       </h2>
       <section id="introduce">
         <i>
-          <img src={myPhoto} alt="Felipe André" />
+          <img className="rounded-full" src={myPhoto} alt="Felipe André" />
         </i>
         <article className="text-justify py-8 font-tertiary">
           &quot;Meu nome é Felipe André e tenho 23 anos e moro na região oeste

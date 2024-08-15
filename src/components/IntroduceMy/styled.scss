@@ -10,7 +10,6 @@ section {
     }
     figure {
       > img {
-        width: 100%;
 
         @media (min-width: $tablet-sm) and (max-width: 999px) {
           width: 50%;
@@ -58,8 +57,6 @@ section {
         display: none;
       }
         > img {
-          width: 30%;
-          border-radius: 50%;
           border: 1px solid transparent;
           transition: height 0.5s ease-in-out;
           @media (min-width: $tablet-sm) and (max-width:$tablet-md) {

@@ -26,7 +26,7 @@ export enum DescTechs {
   StoryBookDesc = "Documentar componentes é algo muito importante e o storybook é uma ferramenta ótima para isso. Estudei e uso hoje em dias em projetos pessoais e gosto muito da ferramenta.",
   GitDesc = "Utilizo diariamente para networking, pes quisa de bibliotecas, armazenamento de projetos pessoais e etc. Também tenho conhecimento de workflows para CI/CD usando Github Actions.",
   DockerDesc = "Tive noções básicas anteriormente, mas, não é algo que estou utilizando atualmente. Mas, é uma tecnologia incrível e que gostaria muito de voltar a estudar.",
-  PythonDjangoDesc = "Atualmente são as tecnologias nas quais mais uso no meu dia a dia off service e no serviço também. Juntamente com black, pylint e flake8 para padronização de código e testes.",
+  PythonDjangoDesc = "Atualmente são as tecnologias nas quais mais uso no meu dia a dia off service e no serviço também. Juntamente com black, pytest e flake8 para padronização de código e testes.",
   TailwindCSSDesc = "Estou estudando atualmente e gostando muito. No começo achei que não iria gostar por parecer CSS inline, porém, agora estou gostando pela rapidez de criar CSS e customizar com o que gostaria pro meu projeto/design.",
   JestDesc = "Testar é algo muito importante e o Jest é uma ferramenta incrível para isso. Uso em conjunto com NextJS e também já utilizei no Angular (apesar de Jasmine e Karma ser o padrão)",
 }

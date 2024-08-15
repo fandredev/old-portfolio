@@ -16,7 +16,7 @@ interface Children<RN> {
 export default function DarkModeProvider({
   children,
 }: Children<ReactNode>): JSX.Element {
-  const [theme, setTheme] = useState(false);
+  const [theme, setTheme] = useState(true);
 
   const handleTheme = () => {
     if (theme) {
