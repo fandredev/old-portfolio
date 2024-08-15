@@ -1,52 +1,45 @@
 import React from "react";
-import { BsBootstrap } from "react-icons/bs";
 import { DiCss3Full } from "react-icons/di";
-import { FaDocker, FaGithub, FaNode, FaReact, FaSass } from "react-icons/fa";
+import { FaGithub, FaNode, FaSass } from "react-icons/fa";
 import { ImHtmlFive } from "react-icons/im";
 import {
   SiAngular,
-  SiNextDotJs,
+  SiReact,
   SiStorybook,
   SiTypescript,
   SiPython,
   SiTailwindcss,
 } from "react-icons/si";
-import atom from "../../assets/images/icons/atom.png";
 import paperPlane from "../../assets/images/icons/plane.png";
 import Card from "../../components/Card";
 import Techs, { DescTechs } from "../../enums";
-import Study from "../Study";
 import "./styled.scss";
 
 export default function Skills(): JSX.Element {
   const {
-    Bootstrap,
     HTML5,
     Sass,
     CSS3,
     Typescript,
-    NextJS,
-    ReactNative,
     NodeJS,
-    Docker,
     GitGitHub,
     Angular,
     StoryBook,
     Jest,
     PythonDjango,
+    ReactTech,
+    TailwindCSS,
   } = Techs;
   const {
     HTML5Desc,
     CSS3Desc,
     SASSDesc,
-    BootstrapDesc,
     TypescriptDesc,
     NodeJSDesc,
-    NextJSDesc,
-    ReactNativeDesc,
+    ReactDesc,
     StoryBookDesc,
     GitDesc,
-    DockerDesc,
+    TailwindCSSDesc,
     JestDesc,
     PythonDjangoDesc,
   } = DescTechs;
@@ -69,22 +62,15 @@ export default function Skills(): JSX.Element {
         <Card title={Sass} description={SASSDesc}>
           <FaSass size={25} />
         </Card>
-        <Card title={Bootstrap} description={BootstrapDesc}>
-          <BsBootstrap size={25} />
-        </Card>
         <Card title={Typescript} description={TypescriptDesc}>
           <SiTypescript size={25} />
         </Card>
         <Card title={NodeJS} description={NodeJSDesc}>
           <FaNode size={25} />
         </Card>
-        <Card title={NextJS} description={NextJSDesc}>
-          <SiNextDotJs size={25} />
+        <Card title={ReactTech} description={ReactDesc}>
+          <SiReact size={25} />
         </Card>
-        <Card title={ReactNative} description={ReactNativeDesc}>
-          <FaReact size={25} />
-        </Card>
-
         <Card title={StoryBook} description={StoryBookDesc}>
           <SiStorybook size={25} />
         </Card>
@@ -103,19 +89,90 @@ export default function Skills(): JSX.Element {
         <Card title={PythonDjango} description={PythonDjangoDesc}>
           <SiPython size={25} />
         </Card>
-      </div>
-      <Study />
-      <h2 className="text-6xl my-11">
-        DevOps <img src={atom} alt="Imagem de um atómo" />
-      </h2>
-      <section id="devops">
+
+        <Card title={TailwindCSS} description={TailwindCSSDesc}>
+          <SiTailwindcss size={25} />
+        </Card>
         <Card url="" title={GitGitHub} description={GitDesc}>
           <FaGithub size={25} />
         </Card>
-        <Card url="" title={Docker} description={DockerDesc}>
-          <FaDocker size={25} />
-        </Card>
-      </section>
+
+        <ul className="space-y-4 text-left text-gray-500 dark:text-gray-400">
+          <h3>Outras ferramentas: </h3>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>Black | Ruff | flake8 | eslint</span>
+          </li>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>CI/CD com GH Actions</span>
+          </li>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>pnpm, npm, pip, pipx</span>
+          </li>
+          <li className="flex items-center space-x-3 rtl:space-x-reverse">
+            <svg
+              className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 16 12"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M1 5.917 5.724 10.5 15 1.5"
+              />
+            </svg>
+            <span>VSCode, Webstorm, Pycharm</span>
+          </li>
+        </ul>
+      </div>
     </>
   );
 }

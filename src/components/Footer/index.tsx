@@ -1,5 +1,4 @@
 import React from "react";
-// import "./styled.scss";
 
 import SocialMedia from "./SocialMedia";
 

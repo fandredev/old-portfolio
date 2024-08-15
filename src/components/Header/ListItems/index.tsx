@@ -1,7 +1,4 @@
 import React, { useContext } from "react";
-import { FiMoon } from "react-icons/fi";
-import { WiSolarEclipse } from "react-icons/wi";
-import Switch from "react-switch";
 import "./styled.scss";
 
 import rocket from "../../../assets/images/icons/rocket.png";
@@ -35,7 +32,7 @@ export default function ListItems(): JSX.Element {
         <li>
           <a href="#projects">Projetos</a>
         </li>
-        <li>
+        {/* <li>
           {width > 600 && (
             <Switch
               onChange={() => handleTheme()}
@@ -45,7 +42,7 @@ export default function ListItems(): JSX.Element {
               checkedIcon={<WiSolarEclipse size={25} />}
             />
           )}
-        </li>
+        </li> */}
       </ol>
     </>
   );

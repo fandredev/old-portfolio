@@ -1,6 +1,5 @@
 @charset 'utf-8';
 @import "../../globals/Variables.scss";
-@import "../../globals/Mixins.scss";
 
 aside {
   padding: 0 3rem;
@@ -19,20 +18,5 @@ aside {
 
   @media (min-width: 1001px) {
     padding: 0 1rem;
-  }
-
-  >section {
-    text-decoration: none;
-
-    >div[id="card"] {
-      background: $primary;
-      height: 50vh;
-      width: 100%;
-      padding: 1rem 2rem;
-
-      >h2 {
-        color: #060606;
-      }
-    }
   }
 }

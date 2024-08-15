@@ -11,9 +11,9 @@ describe("Techs enum", () => {
     expect(typeof Techs.Angular).toBe("string");
   });
 
-  it("should have a value for NextJS", () => {
-    expect(Techs.NextJS).toBeDefined();
-    expect(typeof Techs.NextJS).toBe("string");
+  it("should have a value for React", () => {
+    expect(Techs.ReactTech).toBeDefined();
+    expect(typeof Techs.ReactTech).toBe("string");
   });
 
   it("should have a value for HTML5", () => {
@@ -31,11 +31,6 @@ describe("Techs enum", () => {
     expect(typeof Techs.Sass).toBe("string");
   });
 
-  it("should have a value for Bootstrap", () => {
-    expect(Techs.Bootstrap).toBeDefined();
-    expect(typeof Techs.Bootstrap).toBe("string");
-  });
-
   it("should have a value for Javascript", () => {
     expect(Techs.Javascript).toBeDefined();
     expect(typeof Techs.Javascript).toBe("string");
@@ -49,11 +44,6 @@ describe("Techs enum", () => {
   it("should have a value for NodeJS", () => {
     expect(Techs.NodeJS).toBeDefined();
     expect(typeof Techs.NodeJS).toBe("string");
-  });
-
-  it("should have a value for React Native", () => {
-    expect(Techs.ReactNative).toBeDefined();
-    expect(typeof Techs.ReactNative).toBe("string");
   });
 
   it("should have a value for GitGitHub", () => {
@@ -98,11 +88,6 @@ describe("DescTechs enum", () => {
     expect(typeof DescTechs.TailwindCSSDesc).toBe("string");
   });
 
-  it("should have a description for Bootstrap", () => {
-    expect(DescTechs.BootstrapDesc).toBeDefined();
-    expect(typeof DescTechs.BootstrapDesc).toBe("string");
-  });
-
   it("should have a description for Docker", () => {
     expect(DescTechs.DockerDesc).toBeDefined();
     expect(typeof DescTechs.DockerDesc).toBe("string");
@@ -115,14 +100,6 @@ describe("DescTechs enum", () => {
   it("should have a description for Git", () => {
     expect(DescTechs.GitDesc).toBeDefined();
     expect(typeof DescTechs.GitDesc).toBe("string");
-  });
-  it("should have a description for React Native", () => {
-    expect(DescTechs.ReactNativeDesc).toBeDefined();
-    expect(typeof DescTechs.ReactNativeDesc).toBe("string");
-  });
-  it("should have a description for NextJS", () => {
-    expect(DescTechs.NextJSDesc).toBeDefined();
-    expect(typeof DescTechs.NextJSDesc).toBe("string");
   });
 
   it("should have a description for Node", () => {

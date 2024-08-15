@@ -11,28 +11,5 @@ a {
     @media (min-width: $tablet-md) and (max-width: $computer){
       padding: 0 1rem;
     }
-
-      &:hover {
-        box-shadow: $box-shadow;
-      }
-
-    > h2 {
-      transition: color .1s;
-      &:hover {
-        color: purple;
-        opacity: .8;
-      }
-    }
-    > img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-      @media (min-width: $tablet-sm) and (max-width:$tablet-md) {
-        height: 50vh;
-      }
-      @media (min-width: $tablet-md) and (max-width: $computer){
-      height: auto;
-      }
-    }
   }
 }

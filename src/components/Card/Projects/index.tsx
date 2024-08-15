@@ -7,7 +7,7 @@ export default function CardProjects({
   description,
   text,
   url,
-}: Project<string>): JSX.Element {
+}: Project<string>) {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
       <div id="projects">

@@ -28,9 +28,9 @@ export default function MenuBurger(): JSX.Element {
       <section>
         <SocialMedia />
       </section>
-      <section>
+      {/* <section>
         <Switch checked={theme} onChange={() => handleTheme()} />
-      </section>
+      </section> */}
     </Menu>
   );
 }

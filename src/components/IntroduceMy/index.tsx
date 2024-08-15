@@ -53,15 +53,19 @@ export default function IntroduceMy(): JSX.Element {
           <img src={myPhoto} alt="Felipe André" />
         </i>
         <article className="text-justify py-8 font-tertiary">
-          &quot;Meu nome é Felipe André e tenho 22 anos e moro na região oeste
+          &quot;Meu nome é Felipe André e tenho 23 anos e moro na região oeste
           de São Paulo. Sou estudante de tecnologia desde os 17 anos e sou grato
           pelo progresso que venho aprendendo com a
           <abbr title="World Wide Web"> web</abbr> e com esse mundo vasto de ser
-          uma pessoa programadora. Atualmente estou trabalhando como CLT em uma
-          startup de gestão de contratos usando tecnologias como Python/Django e
-          Typescript, HTML e CSS para prototipar front-end. Moro na região Oeste
-          de São Paulo e amo futebol, sair com amigos e podcasts sobre
-          astronomia e geopolitica. &quot;
+          uma pessoa programadora. Atualmente estou trabalhando como Programador
+          Pleno em uma startup de gestão de contratos e processos para advogados
+          e hoje trabalho com as tecnologias de Django usando Python e React +
+          Typescript. Meu foco atualmente esse ano está em dar um gás no meu
+          inglês e faço isso todos os dias após o trabalho, bem como estudar
+          outros materais de tecnologias, programação, politica, astronômia e
+          afins. Recentemente comecei a estudar Docker + Kubernetes e estou
+          dando meus primeiros passos no FastAPI também. Welcome to my page!
+          😁&quot;
         </article>
       </section>
     </section>
