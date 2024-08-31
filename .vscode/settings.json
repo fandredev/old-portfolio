@@ -7,16 +7,10 @@
     "strings": "on"
   },
 
-  "eslint.validate": [
-    "typescript",
-    "typescriptreact"
-  ],
+  "eslint.validate": ["typescript", "typescriptreact"],
   "typescript.suggest.autoImports": true,
   "[typescriptreact]": {
     "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-  },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html"
+    "editor.formatOnPaste": true
   }
 }
